@@ -8,7 +8,7 @@ doi: "10.1016/j.ecoinf.2026.103839"
 research-area:
   - human-information
 image: /assets/illustrations/axis-hi.svg
-image-alt: "Line-art illustration: a knowledge graph of linked nodes carrying characters from different scripts."
+image-alt: "Line-art illustration: a tree whose foliage is characters from different writing systems."
 type: article
 featured: true
 ---

@@ -1,39 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Abstract illustration of heat contours crossed by a dotted human movement trajectory.">
-  <!-- Faint reference grid -->
-  <g stroke="rgba(24,24,24,0.07)" stroke-width="1">
-    <line x1="0" y1="100" x2="1200" y2="100"/>
-    <line x1="0" y1="200" x2="1200" y2="200"/>
-    <line x1="0" y1="300" x2="1200" y2="300"/>
-    <line x1="200" y1="0" x2="200" y2="400"/>
-    <line x1="400" y1="0" x2="400" y2="400"/>
-    <line x1="600" y1="0" x2="600" y2="400"/>
-    <line x1="800" y1="0" x2="800" y2="400"/>
-    <line x1="1000" y1="0" x2="1000" y2="400"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Line-art illustration: a person walks along a winding path under a radiating sun, with heat shimmer rising from the ground.">
+  <!-- Sun with organic rays -->
+  <g stroke="#d75b32" fill="none" stroke-width="2.5" stroke-linecap="round">
+    <circle cx="950" cy="110" r="46"/>
+    <path d="M 950 34 C 948 26 952 18 950 10"/>
+    <path d="M 1004 56 C 1010 50 1014 44 1020 38"/>
+    <path d="M 1026 110 C 1034 108 1042 112 1050 110"/>
+    <path d="M 1004 164 C 1010 170 1014 176 1020 182"/>
+    <path d="M 950 186 C 948 194 952 202 950 210"/>
+    <path d="M 896 164 C 890 170 886 176 880 182"/>
+    <path d="M 874 110 C 866 108 858 112 850 110"/>
+    <path d="M 896 56 C 890 50 886 44 880 38"/>
   </g>
-  <!-- Heat contours (nested irregular isolines) -->
-  <g fill="none" stroke="#d75b32" stroke-width="2.5">
-    <path opacity="0.35" d="M 330 60 C 480 40 640 90 690 170 C 740 250 660 340 520 355 C 380 370 240 330 200 240 C 165 160 190 80 330 60 Z"/>
-    <path opacity="0.55" d="M 360 100 C 470 85 590 120 630 180 C 670 240 610 300 500 315 C 390 330 290 300 260 235 C 232 175 255 115 360 100 Z"/>
-    <path opacity="0.8" d="M 395 140 C 470 130 545 155 570 195 C 597 238 555 275 480 283 C 407 291 335 268 320 220 C 306 176 325 150 395 140 Z"/>
-    <ellipse cx="450" cy="210" rx="60" ry="32" opacity="1"/>
+  <!-- Heat shimmer rising -->
+  <g stroke="#d75b32" fill="none" stroke-width="2" opacity="0.55" stroke-linecap="round">
+    <path d="M 700 300 C 710 280 690 260 700 240 C 710 220 690 200 700 180"/>
+    <path d="M 760 310 C 770 292 750 274 760 256 C 770 238 750 220 760 202"/>
+    <path d="M 820 300 C 830 282 810 264 820 246 C 830 228 810 210 820 192"/>
   </g>
-  <circle cx="450" cy="210" r="6" fill="#d75b32"/>
-  <!-- Mobility trajectory: dashed path with waypoints, left to right -->
-  <path d="M 60 330 C 200 300 260 240 380 250 C 500 260 520 170 660 160 C 800 150 860 230 1000 210 C 1070 200 1110 170 1150 150"
-        fill="none" stroke="#181818" stroke-width="2" stroke-dasharray="1 10" stroke-linecap="round"/>
-  <g fill="#181818">
-    <circle cx="60" cy="330" r="5"/>
-    <circle cx="380" cy="250" r="5"/>
-    <circle cx="660" cy="160" r="5"/>
-    <circle cx="1000" cy="210" r="5"/>
+  <!-- Ground: rolling line -->
+  <path d="M 0 332 C 200 322 340 336 520 330 C 720 323 900 334 1200 324"
+        fill="none" stroke="#6b6b67" stroke-width="2"/>
+  <!-- Winding dotted path receding -->
+  <path d="M 80 356 C 240 344 330 352 430 330 C 540 306 600 296 700 296 C 830 296 940 288 1080 280"
+        fill="none" stroke="#a8431f" stroke-width="2.5" stroke-dasharray="1 12" stroke-linecap="round"/>
+  <!-- Walking person -->
+  <g stroke="#181818" fill="none" stroke-width="3" stroke-linecap="round">
+    <circle cx="432" cy="178" r="15"/>
+    <path d="M 430 193 C 428 214 426 232 424 252"/>
+    <path d="M 424 252 C 440 272 456 292 472 312"/>
+    <path d="M 424 252 C 407 278 392 294 374 310"/>
+    <path d="M 429 206 C 446 216 458 228 467 241"/>
+    <path d="M 429 206 C 412 220 403 231 397 244"/>
   </g>
-  <path d="M 1150 150 l -18 2 l 10 14 Z" fill="#181818"/>
-  <!-- Secondary settlement marks -->
-  <g fill="none" stroke="#6b6b67" stroke-width="1.5">
-    <rect x="840" y="290" width="26" height="26"/>
-    <rect x="890" y="270" width="18" height="46"/>
-    <rect x="930" y="300" width="34" height="16"/>
-    <rect x="140" y="120" width="22" height="22"/>
-    <rect x="180" y="132" width="14" height="10"/>
+  <!-- Grass tufts -->
+  <g stroke="#6b6b67" fill="none" stroke-width="1.5" stroke-linecap="round">
+    <path d="M 150 330 C 148 320 146 314 142 306"/>
+    <path d="M 156 330 C 156 320 157 313 159 305"/>
+    <path d="M 162 331 C 165 323 169 317 174 311"/>
+    <path d="M 590 328 C 588 318 586 312 582 304"/>
+    <path d="M 596 328 C 596 318 597 311 599 303"/>
+    <path d="M 602 329 C 605 321 609 315 614 309"/>
+    <path d="M 1030 326 C 1028 316 1026 310 1022 302"/>
+    <path d="M 1036 326 C 1036 316 1037 309 1039 301"/>
+    <path d="M 1042 327 C 1045 319 1049 313 1054 307"/>
   </g>
 </svg>

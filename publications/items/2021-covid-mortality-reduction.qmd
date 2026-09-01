@@ -30,7 +30,7 @@ year: 2021
 venue: "International Journal of Epidemiology"
 doi: "10.1093/ije/dyab216"
 image: /assets/illustrations/neutral.svg
-image-alt: "Line-art illustration: an interrupted time series with an event marker."
+image-alt: "Line-art illustration: a flock of birds sweeping across the sky above a rolling horizon."
 type: article
 ---
 

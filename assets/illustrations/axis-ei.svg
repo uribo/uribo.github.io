@@ -1,55 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Abstract illustration of a leaf whose veins connect into a network of nodes, representing nature in the information space.">
-  <!-- Faint reference grid -->
-  <g stroke="rgba(24,24,24,0.07)" stroke-width="1">
-    <line x1="0" y1="100" x2="1200" y2="100"/>
-    <line x1="0" y1="200" x2="1200" y2="200"/>
-    <line x1="0" y1="300" x2="1200" y2="300"/>
-    <line x1="200" y1="0" x2="200" y2="400"/>
-    <line x1="400" y1="0" x2="400" y2="400"/>
-    <line x1="600" y1="0" x2="600" y2="400"/>
-    <line x1="800" y1="0" x2="800" y2="400"/>
-    <line x1="1000" y1="0" x2="1000" y2="400"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Line-art illustration: a hermit crab with a spiral shell walks along the ground beside sprouting plants.">
+  <!-- Ground -->
+  <path d="M 60 330 C 300 320 520 336 760 328 C 940 322 1060 332 1160 326"
+        fill="none" stroke="#6b6b67" stroke-width="2"/>
+  <!-- Hermit crab: spiral shell -->
+  <g stroke="#4f7651" fill="none" stroke-width="3" stroke-linecap="round">
+    <path d="M 640 300 C 560 310 490 280 480 210 C 472 150 520 100 590 100 C 655 100 700 145 698 200 C 696 248 660 280 615 278 C 575 276 550 248 553 212 C 556 180 580 162 608 166 C 632 170 645 190 641 212 C 638 230 622 240 606 236"/>
   </g>
-  <!-- Leaf: outline, midrib, veins -->
-  <g fill="none" stroke="#4f7651" stroke-width="2.5">
-    <path d="M 150 320 C 150 180 260 70 420 80 C 430 240 320 330 150 320 Z"/>
-    <path d="M 150 320 C 230 260 330 170 420 80" stroke-width="2"/>
-    <g stroke-width="1.5" opacity="0.8">
-      <path d="M 205 278 C 240 250 260 220 268 190"/>
-      <path d="M 260 235 C 300 210 320 180 330 150"/>
-      <path d="M 315 193 C 350 175 370 150 378 122"/>
-      <path d="M 205 278 C 235 285 270 285 300 275"/>
-      <path d="M 260 235 C 295 245 330 243 360 230"/>
-    </g>
+  <!-- Body, eye stalks, claw, legs -->
+  <g stroke="#3d5c3f" fill="none" stroke-width="3" stroke-linecap="round">
+    <path d="M 635 298 C 665 296 690 284 705 264"/>
+    <path d="M 705 264 C 708 252 710 244 710 234"/>
+    <path d="M 714 268 C 720 256 724 248 726 240"/>
+    <path d="M 690 290 C 712 288 730 296 738 312"/>
+    <path d="M 738 312 C 748 306 754 296 754 286"/>
+    <path d="M 738 312 C 728 316 718 316 710 312"/>
+    <path d="M 660 300 C 668 312 674 322 678 332"/>
+    <path d="M 645 302 C 648 314 648 324 646 332"/>
+    <path d="M 674 296 C 686 306 694 318 698 330"/>
   </g>
-  <!-- Bridge: vein tips extend into network edges -->
-  <g fill="none" stroke="#6b6b67" stroke-width="1.5">
-    <path d="M 378 122 C 480 100 540 130 620 140"/>
-    <path d="M 360 230 C 470 240 540 210 620 140"/>
-    <path d="M 330 150 C 450 160 540 180 660 250"/>
+  <g fill="#3d5c3f">
+    <circle cx="710" cy="231" r="5"/>
+    <circle cx="727" cy="237" r="5"/>
   </g>
-  <!-- Network of nodes -->
-  <g fill="none" stroke="#4f7651" stroke-width="1.5">
-    <line x1="620" y1="140" x2="780" y2="90"/>
-    <line x1="620" y1="140" x2="800" y2="200"/>
-    <line x1="660" y1="250" x2="800" y2="200"/>
-    <line x1="660" y1="250" x2="780" y2="330"/>
-    <line x1="800" y1="200" x2="780" y2="330"/>
-    <line x1="800" y1="200" x2="960" y2="150"/>
-    <line x1="780" y1="90" x2="960" y2="150"/>
-    <line x1="960" y1="150" x2="1080" y2="230"/>
-    <line x1="780" y1="330" x2="1080" y2="230"/>
-    <line x1="960" y1="150" x2="1060" y2="80"/>
+  <!-- Sprouting plants -->
+  <g stroke="#4f7651" fill="none" stroke-width="2.5" stroke-linecap="round">
+    <path d="M 220 328 C 222 296 224 272 228 244"/>
+    <path d="M 228 244 C 210 246 196 238 190 222 C 208 220 222 228 228 244 Z"/>
+    <path d="M 226 270 C 244 270 258 260 262 244 C 244 246 232 254 226 270 Z"/>
+    <path d="M 224 300 C 208 300 196 292 192 278 C 208 280 218 288 224 300 Z"/>
   </g>
-  <g fill="#f7f7f3" stroke="#4f7651" stroke-width="2.5">
-    <circle cx="620" cy="140" r="14"/>
-    <circle cx="660" cy="250" r="10"/>
-    <circle cx="780" cy="90" r="9"/>
-    <circle cx="800" cy="200" r="18"/>
-    <circle cx="780" cy="330" r="11"/>
-    <circle cx="960" cy="150" r="13"/>
-    <circle cx="1060" cy="80" r="7"/>
-    <circle cx="1080" cy="230" r="9"/>
+  <g stroke="#4f7651" fill="none" stroke-width="2.5" stroke-linecap="round">
+    <path d="M 960 326 C 962 300 964 282 968 260"/>
+    <path d="M 968 260 C 952 260 940 252 936 238 C 952 240 962 248 968 260 Z"/>
+    <path d="M 966 288 C 982 288 994 280 998 266 C 982 268 972 276 966 288 Z"/>
   </g>
-  <circle cx="800" cy="200" r="6" fill="#4f7651"/>
+  <g stroke="#4f7651" fill="none" stroke-width="2" stroke-linecap="round">
+    <path d="M 120 330 C 118 318 116 310 112 300"/>
+    <path d="M 126 330 C 127 319 129 311 133 302"/>
+    <path d="M 852 328 C 850 316 848 308 844 298"/>
+    <path d="M 858 328 C 859 317 861 309 865 300"/>
+  </g>
 </svg>

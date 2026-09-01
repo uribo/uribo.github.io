@@ -6,10 +6,10 @@ research-area:
   - human-information
 status: active
 image: /assets/illustrations/axis-hi.svg
-image-alt: "Line-art illustration: a knowledge graph of linked nodes carrying characters from different scripts."
+image-alt: "Line-art illustration: a tree whose foliage is characters from different writing systems."
 ---
 
-![](/assets/illustrations/axis-hi.svg){.project-banner fig-alt="Line-art illustration: a knowledge graph of linked nodes carrying characters from different scripts."}
+![](/assets/illustrations/axis-hi.svg){.project-banner fig-alt="Line-art illustration: a tree whose foliage is characters from different writing systems."}
 
 ## Research Question
 

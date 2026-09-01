@@ -19,7 +19,7 @@ year: 2021
 venue: "Science Progress"
 doi: "10.1177/00368504211029793"
 image: /assets/illustrations/neutral.svg
-image-alt: "Line-art illustration: an interrupted time series with an event marker."
+image-alt: "Line-art illustration: a flock of birds sweeping across the sky above a rolling horizon."
 type: article
 ---
 

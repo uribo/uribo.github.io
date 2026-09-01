@@ -5,10 +5,10 @@ research-area:
   - environment-information
 status: active
 image: /assets/illustrations/axis-ei.svg
-image-alt: "Line-art illustration: a leaf whose veins extend into a network of nodes."
+image-alt: "Line-art illustration: a hermit crab with a spiral shell walking among sprouting plants."
 ---
 
-![](/assets/illustrations/axis-ei.svg){.project-banner fig-alt="Line-art illustration: a leaf whose veins extend into a network of nodes."}
+![](/assets/illustrations/axis-ei.svg){.project-banner fig-alt="Line-art illustration: a hermit crab with a spiral shell walking among sprouting plants."}
 
 ## Research Question
 

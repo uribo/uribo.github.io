@@ -15,7 +15,7 @@ doi: "10.1080/24709360.2022.2065628"
 research-area:
   - human-environment
 image: /assets/illustrations/axis-he.svg
-image-alt: "Line-art illustration: heat contours crossed by a dotted movement trajectory."
+image-alt: "Line-art illustration: a person walking along a winding path under a radiating sun, with heat shimmer rising from the ground."
 type: article
 ---
 
