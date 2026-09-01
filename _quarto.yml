@@ -34,6 +34,8 @@ website:
         href: data-software/index.qmd
       - text: Notes
         href: notes/index.qmd
+      - text: About
+        href: about/index.qmd
       - text: Join
         href: join/index.qmd
     right:

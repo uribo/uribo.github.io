@@ -34,6 +34,10 @@ Required: `title`, `subtitle`, `type`. Recommended: `repository` (URL), `doi` (v
 
 This section is the single source of truth for datasets and software; research project pages link here rather than restating the details.
 
+## About (`about/index.qmd`)
+
+Hand-maintained prose page: portrait photo (`about/shinya-uryu.jpg`), short English bio, Positions / Education / Books lists, and public profile links. No schema; keep facts consistent with researchmap. The portrait is the owner's current profile photo — replace the file in place (same path) when updating it.
+
 ## Funding (prose section on `research/index.qmd`)
 
 Grants are a curated prose section (`## Funding`) on the research index, not per-item pages. List **awarded and held grants only** — never pending applications, planned submissions, rejected proposals, or grants declined after award, and never internal detail (budgets beyond public records, effort shares, application strategy). Each entry: official English title, funder + scheme, grant number linked to its public record (e.g., KAKEN), period, role, one- or two-sentence public-abstract-level description, and a link to the related research project page.

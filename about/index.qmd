@@ -1,0 +1,33 @@
+---
+title: About
+toc: false
+---
+
+::: {.about-header}
+![Portrait of Shinya Uryu](shinya-uryu.jpg){.about-photo fig-alt="Portrait of Shinya Uryu, outdoors under a blue sky."}
+
+::: {.about-intro}
+**Shinya Uryu** (瓜生 真也) is an Assistant Professor at the Center for Design-Oriented AI Education and Research, Tokushima University, with a joint appointment in the Faculty of Science and Technology.
+
+Trained in forest ecology, he worked as a data engineer in industry and at the National Institute for Environmental Studies before joining Tokushima University in 2021. His research applies data analysis, machine learning, and language processing to human–nature interactions — heat illness risk under climate change, wildlife trade in online markets, and the multilingual structure of biodiversity knowledge. He builds most of his work in R and Python, and maintains a number of open-source R packages.
+
+[GitHub](https://github.com/uribo) · [ORCID](https://orcid.org/0000-0002-0493-6186) · [researchmap](https://researchmap.jp/suryu) · [Google Scholar](https://scholar.google.com/citations?user=osKE4jIAAAAJ) · [Speaker Deck](https://speakerdeck.com/s_uryu) · [X (@u_ribo)](https://x.com/u_ribo)
+:::
+:::
+
+## Positions
+
+- **2021–present** — Assistant Professor, Center for Design-Oriented AI Education and Research, Tokushima University (since 2024, also Faculty of Science and Technology)
+- **2017–2021** — Research technical specialist, National Institute for Environmental Studies (NIES): data engineering and R package development for biodiversity conservation and sustainable use of environmental resources
+- **2016–2017** — Data analyst, Nightley Inc.: location data analytics and tool development
+
+## Education
+
+- **2014** — M.S. in Environmental Studies, Graduate School of Environment and Information Sciences, Yokohama National University (forest ecology)
+- **2012** — B.S., Department of Biosphere-Geosphere System Science, Okayama University of Science
+
+## Books
+
+- *Rユーザのためのtidymodels〈実践〉入門* (co-author; Gijutsu-Hyoron, 2023) — a practical introduction to modern statistical and machine learning modeling with tidymodels
+- *データ分析のためのデータ可視化入門* (translator; Kodansha Scientific, 2021) — Japanese translation of Kieran Healy, *Data Visualization: A Practical Introduction*
+- *Rによるスクレイピング入門* (co-author; C&R Institute, 2017) — web scraping with R
