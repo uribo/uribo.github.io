@@ -10,7 +10,7 @@ listing:
     type: default
     sort: "year desc"
     max-items: 4
-    fields: [title, author, year]
+    fields: [image, title, author, year]
   - id: recent-publications
     contents: publications/items
     type: default
@@ -23,7 +23,7 @@ listing:
     contents: research/*/index.qmd
     type: default
     sort: "title"
-    fields: [title, subtitle]
+    fields: [image, title, subtitle]
 ---
 
 {{< include includes/_hero.qmd >}}

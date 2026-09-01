@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Abstract illustration of a time series interrupted by an event marker, with scattered observation points.">
+  <!-- Faint reference grid -->
+  <g stroke="rgba(24,24,24,0.07)" stroke-width="1">
+    <line x1="0" y1="100" x2="1200" y2="100"/>
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="200" y1="0" x2="200" y2="400"/>
+    <line x1="400" y1="0" x2="400" y2="400"/>
+    <line x1="600" y1="0" x2="600" y2="400"/>
+    <line x1="800" y1="0" x2="800" y2="400"/>
+    <line x1="1000" y1="0" x2="1000" y2="400"/>
+  </g>
+  <!-- Axes -->
+  <g stroke="#6b6b67" stroke-width="1.5">
+    <line x1="90" y1="40" x2="90" y2="340"/>
+    <line x1="90" y1="340" x2="1140" y2="340"/>
+  </g>
+  <!-- Event marker -->
+  <line x1="620" y1="50" x2="620" y2="340" stroke="#181818" stroke-width="1.5" stroke-dasharray="6 6"/>
+  <!-- Observations -->
+  <g fill="#6b6b67" opacity="0.7">
+    <circle cx="150" cy="252" r="4"/>
+    <circle cx="205" cy="266" r="4"/>
+    <circle cx="255" cy="238" r="4"/>
+    <circle cx="310" cy="255" r="4"/>
+    <circle cx="360" cy="228" r="4"/>
+    <circle cx="415" cy="240" r="4"/>
+    <circle cx="470" cy="215" r="4"/>
+    <circle cx="525" cy="228" r="4"/>
+    <circle cx="575" cy="205" r="4"/>
+    <circle cx="655" cy="150" r="4"/>
+    <circle cx="705" cy="168" r="4"/>
+    <circle cx="760" cy="140" r="4"/>
+    <circle cx="815" cy="155" r="4"/>
+    <circle cx="870" cy="128" r="4"/>
+    <circle cx="925" cy="142" r="4"/>
+    <circle cx="980" cy="118" r="4"/>
+    <circle cx="1035" cy="130" r="4"/>
+    <circle cx="1090" cy="108" r="4"/>
+  </g>
+  <!-- Fitted lines: shifted at the event -->
+  <path d="M 120 265 C 280 245 440 230 600 212" fill="none" stroke="#181818" stroke-width="2.5"/>
+  <path d="M 640 160 C 790 148 940 130 1110 112" fill="none" stroke="#181818" stroke-width="2.5"/>
+  <path d="M 640 205 C 790 196 940 185 1110 172" fill="none" stroke="#6b6b67" stroke-width="1.5" stroke-dasharray="2 6"/>
+</svg>

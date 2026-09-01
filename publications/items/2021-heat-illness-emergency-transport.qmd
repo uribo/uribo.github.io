@@ -20,6 +20,8 @@ venue: "Science of The Total Environment"
 doi: "10.1016/j.scitotenv.2020.144723"
 research-area:
   - human-environment
+image: /assets/illustrations/axis-he.svg
+image-alt: "Line-art illustration: heat contours crossed by a dotted movement trajectory."
 type: article
 featured: true
 ---

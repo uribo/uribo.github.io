@@ -228,6 +228,14 @@ h2 {
   }
 }
 
+// Research project banner illustration (top of project pages)
+.project-banner {
+  width: 100%;
+  border: 1px solid $border-color;
+  background: $body-bg;
+  margin-bottom: 0.5rem;
+}
+
 // About page: portrait beside the intro paragraph
 .about-header {
   display: grid;

@@ -22,6 +22,8 @@ Required: `title`, `author` (list), `year` (int), `type`. Recommended: `venue` (
 
 Body: one short paragraph at most; the page exists to carry metadata and link out via DOI.
 
+Recommended for all listed content types: `image` (site-absolute path to an `assets/illustrations/*.svg` matching the item's primary research area; `neutral.svg` when none fits) and `image-alt`. Every item in a listing should carry one so no placeholder thumbnails appear.
+
 ## Research project (`research/<slug>/index.qmd`)
 
 Required: `title`, `subtitle`, `research-area`, `status` (`active` | `paused` | `completed`). Body follows the section order of the template (`research/heat-mobility/index.qmd`): Research Question → Background → Approach → Representative Findings → Related Publications → Data & Code → Related Projects.

@@ -7,7 +7,7 @@ listing:
   sort: "year desc"
   categories: false
   page-size: 30
-  fields: [title, author, venue, year]
+  fields: [image, title, author, venue, year]
   field-display-names:
     venue: "Venue"
 ---

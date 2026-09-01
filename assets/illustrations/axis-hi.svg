@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Abstract illustration of a multilingual knowledge graph: linked nodes carrying characters from different scripts.">
+  <!-- Faint reference grid -->
+  <g stroke="rgba(24,24,24,0.07)" stroke-width="1">
+    <line x1="0" y1="100" x2="1200" y2="100"/>
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="200" y1="0" x2="200" y2="400"/>
+    <line x1="400" y1="0" x2="400" y2="400"/>
+    <line x1="600" y1="0" x2="600" y2="400"/>
+    <line x1="800" y1="0" x2="800" y2="400"/>
+    <line x1="1000" y1="0" x2="1000" y2="400"/>
+  </g>
+  <!-- Edges -->
+  <g fill="none" stroke="#5367a5" stroke-width="1.5">
+    <line x1="240" y1="200" x2="520" y2="120"/>
+    <line x1="240" y1="200" x2="500" y2="290"/>
+    <line x1="520" y1="120" x2="500" y2="290"/>
+    <line x1="520" y1="120" x2="820" y2="90"/>
+    <line x1="500" y1="290" x2="800" y2="250"/>
+    <line x1="820" y1="90" x2="800" y2="250"/>
+    <line x1="800" y1="250" x2="1050" y2="180"/>
+    <line x1="820" y1="90" x2="1050" y2="180"/>
+    <line x1="500" y1="290" x2="700" y2="350"/>
+    <line x1="700" y1="350" x2="800" y2="250"/>
+  </g>
+  <g fill="none" stroke="#6b6b67" stroke-width="1" stroke-dasharray="4 6">
+    <line x1="240" y1="200" x2="700" y2="350"/>
+    <line x1="520" y1="120" x2="1050" y2="180"/>
+  </g>
+  <!-- Nodes with script glyphs -->
+  <g fill="#f7f7f3" stroke="#5367a5" stroke-width="2.5">
+    <circle cx="240" cy="200" r="42"/>
+    <circle cx="520" cy="120" r="34"/>
+    <circle cx="500" cy="290" r="30"/>
+    <circle cx="820" cy="90" r="26"/>
+    <circle cx="800" cy="250" r="38"/>
+    <circle cx="1050" cy="180" r="30"/>
+    <circle cx="700" cy="350" r="18"/>
+  </g>
+  <g fill="#40518a" font-family="Georgia, 'Hiragino Mincho ProN', serif" text-anchor="middle">
+    <text x="240" y="216" font-size="44">A</text>
+    <text x="520" y="134" font-size="36">あ</text>
+    <text x="500" y="303" font-size="32">汉</text>
+    <text x="820" y="101" font-size="28">ω</text>
+    <text x="800" y="264" font-size="38">ñ</text>
+    <text x="1050" y="192" font-size="30">क</text>
+  </g>
+  <circle cx="700" cy="350" r="6" fill="#5367a5"/>
+</svg>

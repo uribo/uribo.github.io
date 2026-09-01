@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Abstract illustration of a leaf whose veins connect into a network of nodes, representing nature in the information space.">
+  <!-- Faint reference grid -->
+  <g stroke="rgba(24,24,24,0.07)" stroke-width="1">
+    <line x1="0" y1="100" x2="1200" y2="100"/>
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="200" y1="0" x2="200" y2="400"/>
+    <line x1="400" y1="0" x2="400" y2="400"/>
+    <line x1="600" y1="0" x2="600" y2="400"/>
+    <line x1="800" y1="0" x2="800" y2="400"/>
+    <line x1="1000" y1="0" x2="1000" y2="400"/>
+  </g>
+  <!-- Leaf: outline, midrib, veins -->
+  <g fill="none" stroke="#4f7651" stroke-width="2.5">
+    <path d="M 150 320 C 150 180 260 70 420 80 C 430 240 320 330 150 320 Z"/>
+    <path d="M 150 320 C 230 260 330 170 420 80" stroke-width="2"/>
+    <g stroke-width="1.5" opacity="0.8">
+      <path d="M 205 278 C 240 250 260 220 268 190"/>
+      <path d="M 260 235 C 300 210 320 180 330 150"/>
+      <path d="M 315 193 C 350 175 370 150 378 122"/>
+      <path d="M 205 278 C 235 285 270 285 300 275"/>
+      <path d="M 260 235 C 295 245 330 243 360 230"/>
+    </g>
+  </g>
+  <!-- Bridge: vein tips extend into network edges -->
+  <g fill="none" stroke="#6b6b67" stroke-width="1.5">
+    <path d="M 378 122 C 480 100 540 130 620 140"/>
+    <path d="M 360 230 C 470 240 540 210 620 140"/>
+    <path d="M 330 150 C 450 160 540 180 660 250"/>
+  </g>
+  <!-- Network of nodes -->
+  <g fill="none" stroke="#4f7651" stroke-width="1.5">
+    <line x1="620" y1="140" x2="780" y2="90"/>
+    <line x1="620" y1="140" x2="800" y2="200"/>
+    <line x1="660" y1="250" x2="800" y2="200"/>
+    <line x1="660" y1="250" x2="780" y2="330"/>
+    <line x1="800" y1="200" x2="780" y2="330"/>
+    <line x1="800" y1="200" x2="960" y2="150"/>
+    <line x1="780" y1="90" x2="960" y2="150"/>
+    <line x1="960" y1="150" x2="1080" y2="230"/>
+    <line x1="780" y1="330" x2="1080" y2="230"/>
+    <line x1="960" y1="150" x2="1060" y2="80"/>
+  </g>
+  <g fill="#f7f7f3" stroke="#4f7651" stroke-width="2.5">
+    <circle cx="620" cy="140" r="14"/>
+    <circle cx="660" cy="250" r="10"/>
+    <circle cx="780" cy="90" r="9"/>
+    <circle cx="800" cy="200" r="18"/>
+    <circle cx="780" cy="330" r="11"/>
+    <circle cx="960" cy="150" r="13"/>
+    <circle cx="1060" cy="80" r="7"/>
+    <circle cx="1080" cy="230" r="9"/>
+  </g>
+  <circle cx="800" cy="200" r="6" fill="#4f7651"/>
+</svg>

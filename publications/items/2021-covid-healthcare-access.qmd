@@ -17,6 +17,8 @@ author:
 year: 2021
 venue: "International Journal of Environmental Research and Public Health"
 doi: "10.3390/ijerph18063271"
+image: /assets/illustrations/neutral.svg
+image-alt: "Line-art illustration: an interrupted time series with an event marker."
 type: article
 ---
 

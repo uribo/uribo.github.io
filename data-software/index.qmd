@@ -5,7 +5,7 @@ listing:
   contents: items
   type: default
   sort: "title"
-  fields: [title, subtitle]
+  fields: [image, title, subtitle]
 ---
 
 Research outputs beyond papers: datasets, research software, and interactive visualizations.

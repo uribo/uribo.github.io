@@ -7,21 +7,21 @@ listing:
       research-area: "human-environment"
     type: default
     sort: "title"
-    fields: [title, subtitle]
+    fields: [image, title, subtitle]
   - id: projects-ei
     contents: "*/index.qmd"
     include:
       research-area: "environment-information"
     type: default
     sort: "title"
-    fields: [title, subtitle]
+    fields: [image, title, subtitle]
   - id: projects-hi
     contents: "*/index.qmd"
     include:
       research-area: "human-information"
     type: default
     sort: "title"
-    fields: [title, subtitle]
+    fields: [image, title, subtitle]
 ---
 
 Our research sits on the three edges of one triad — **Human**, **Environment**, and **Information** — asking how people, environmental risk, and the information space shape each other.

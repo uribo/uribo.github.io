@@ -4,7 +4,11 @@ subtitle: "Spatial exposure to extreme heat through the lens of human movement"
 research-area:
   - human-environment
 status: active
+image: /assets/illustrations/axis-he.svg
+image-alt: "Line-art illustration: heat contours crossed by a dotted movement trajectory."
 ---
+
+![](/assets/illustrations/axis-he.svg){.project-banner fig-alt="Line-art illustration: heat contours crossed by a dotted movement trajectory."}
 
 <!-- TEMPLATE PROJECT PAGE: this is the canonical structure for research project pages.
      Sections may be omitted while a project is young, but keep the order. -->

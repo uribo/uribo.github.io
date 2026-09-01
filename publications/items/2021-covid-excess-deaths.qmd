@@ -26,6 +26,8 @@ author:
 year: 2021
 venue: "Emerging Infectious Diseases"
 doi: "10.3201/eid2703.203925"
+image: /assets/illustrations/neutral.svg
+image-alt: "Line-art illustration: an interrupted time series with an event marker."
 type: article
 ---
 

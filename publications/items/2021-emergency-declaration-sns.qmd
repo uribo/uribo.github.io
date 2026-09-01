@@ -20,6 +20,8 @@ author:
 year: 2021
 venue: "BMJ Open"
 doi: "10.1136/bmjopen-2020-042002"
+image: /assets/illustrations/neutral.svg
+image-alt: "Line-art illustration: an interrupted time series with an event marker."
 type: article
 ---
 

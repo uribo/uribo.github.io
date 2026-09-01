@@ -11,6 +11,8 @@ venue: "Ambio"
 doi: "10.1007/s13280-021-01522-0"
 research-area:
   - environment-information
+image: /assets/illustrations/axis-ei.svg
+image-alt: "Line-art illustration: a leaf whose veins extend into a network of nodes."
 type: article
 ---
 

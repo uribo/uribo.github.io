@@ -13,6 +13,8 @@ venue: "Global Ecology and Conservation"
 doi: "10.1016/j.gecco.2025.e03722"
 research-area:
   - environment-information
+image: /assets/illustrations/axis-ei.svg
+image-alt: "Line-art illustration: a leaf whose veins extend into a network of nodes."
 type: article
 ---
 
