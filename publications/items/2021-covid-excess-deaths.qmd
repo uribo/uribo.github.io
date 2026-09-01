@@ -1,0 +1,34 @@
+---
+title: "Excess All-Cause Deaths during Coronavirus Disease Pandemic, Japan, January–May 2020"
+author:
+  - Takayuki Kawashima
+  - Shuhei Nomura
+  - Yuta Tanoue
+  - Daisuke Yoneoka
+  - Akifumi Eguchi
+  - Chris Fook Sheng Ng
+  - Kentaro Matsuura
+  - Shoi Shi
+  - Koji Makiyama
+  - Shinya Uryu
+  - Yumi Kawamura
+  - Shinichi Takayanagi
+  - Stuart Gilmour
+  - Hiroaki Miyata
+  - Tomimasa Sunagawa
+  - Takuri Takahashi
+  - Yuuki Tsuchihashi
+  - Yusuke Kobayashi
+  - Yuzo Arima
+  - Kazuhiko Kanou
+  - Motoi Suzuki
+  - Masahiro Hashizume
+year: 2021
+venue: "Emerging Infectious Diseases"
+doi: "10.3201/eid2703.203925"
+type: article
+---
+
+Published in *Emerging Infectious Diseases*. [doi:10.3201/eid2703.203925](https://doi.org/10.3201/eid2703.203925)
+
+Estimates excess all-cause mortality in Japan during the first months of the COVID-19 pandemic.

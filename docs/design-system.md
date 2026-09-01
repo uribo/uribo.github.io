@@ -12,7 +12,7 @@ Accents are used sparingly: as category markers and figure support, never as UI 
 
 ## Typography and layout
 
-Large display typography with `clamp()` sizing, generous whitespace, hairline separators (`1px` borders) instead of boxes. The top page is the only custom layout (`page-layout: custom`); every other page uses Quarto's standard article layout for readability.
+Large display typography with `clamp()` sizing, hairline separators (`1px` borders) instead of boxes. Layout density is **dense editorial** (owner preference, 2026-09-01): the top page reads like a broadsheet front page — a stats strip under the hero, a dated News list, two-column publication listings, and a bottom grid for projects / funding / data — rather than a sparse landing page. Density comes from tighter spacing, multi-column grids, and more (real) content per viewport; never from decorative boxes, cards, or filler. The top page is the only custom layout (`page-layout: custom`); every other page uses Quarto's standard article layout for readability.
 
 ## Figures
 

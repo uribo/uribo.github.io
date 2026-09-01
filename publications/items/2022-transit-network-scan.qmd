@@ -1,0 +1,22 @@
+---
+title: "Public transportation network scan for rapid surveillance"
+author:
+  - Yuta Tanoue
+  - Daisuke Yoneoka
+  - Takayuki Kawashima
+  - Shinya Uryu
+  - Shuhei Nomura
+  - Akifumi Eguchi
+  - Koji Makiyama
+  - Kentaro Matsuura
+year: 2022
+venue: "Biostatistics & Epidemiology"
+doi: "10.1080/24709360.2022.2065628"
+research-area:
+  - human-environment
+type: article
+---
+
+Published in *Biostatistics & Epidemiology*. [doi:10.1080/24709360.2022.2065628](https://doi.org/10.1080/24709360.2022.2065628)
+
+A scan statistic defined over the public transportation network, for rapid detection of infectious disease clusters along real human movement rather than administrative boundaries.

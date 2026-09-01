@@ -1,0 +1,19 @@
+---
+title: "Disease outbreak in wildlife changes online sales of management items"
+author:
+  - Tomohiko Endo
+  - Shinya Uryu
+  - Keita Fukasawa
+  - Jiefeng Kang
+  - Takahiro Kubo
+year: 2025
+venue: "One Health"
+doi: "10.1016/j.onehlt.2025.100988"
+research-area:
+  - environment-information
+type: article
+---
+
+Published in *One Health*. [doi:10.1016/j.onehlt.2025.100988](https://doi.org/10.1016/j.onehlt.2025.100988)
+
+Links a wildlife disease outbreak to shifts in online sales of management-related items, connecting e-commerce signals to One Health surveillance.

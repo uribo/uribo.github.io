@@ -1,0 +1,37 @@
+---
+title: "Language Gaps in Biodiversity Knowledge"
+subtitle: "Multilingual Wikipedia and LLMs as instruments for measuring where conservation knowledge is missing"
+research-area:
+  - environment-information
+  - human-information
+status: active
+---
+
+## Research Question
+
+Why is biodiversity knowledge unevenly distributed across languages and cultures — and how does that unevenness propagate into large language models and data infrastructure that conservation increasingly relies on?
+
+## Background
+
+Conservation knowledge skews heavily toward English-language information, leaving knowledge held in other languages underused. Two published foundations set up this project: [BioWikiNet](../../publications/items/2025-biowikinet.qmd), a dataset linking 1.27 million Wikipedia articles in 11 languages to the GBIF backbone taxonomy, and a [benchmark of large language models](../../publications/items/2026-llm-redlist-benchmark.qmd) on 21,955 IUCN Red List species showing that LLMs classify taxonomy well (94.9%) but systematically fail at conservation status (27.2%).
+
+## Approach
+
+Quantify knowledge disparities across language editions of Wikipedia for roughly 2,000 threatened species, and test how those disparities surface in LLM behavior — including the risk that Data Deficient species with thin multilingual coverage stay invisible to both humans and models. Supported by JSPS KAKENHI Grant-in-Aid for Scientific Research (C) 26K09459 (FY2026–2028); see [Funding](../index.qmd#funding).
+
+## Representative Findings
+
+Findings from the KAKENHI project will appear here as they are published.
+
+## Related Publications
+
+- [Benchmarking large language models for biodiversity assessment (2026, Ecological Informatics)](../../publications/items/2026-llm-redlist-benchmark.qmd)
+- [BioWikiNet (2026, Scientific Data)](../../publications/items/2025-biowikinet.qmd)
+
+## Data & Code
+
+- [BioWikiNet dataset](../../data-software/items/biowikinet-dataset.qmd)
+
+## Related Projects
+
+- [Wildlife Trade in Online Markets](../wildlife-trade/index.qmd) — shares the conservation-culturomics toolkit

@@ -1,0 +1,28 @@
+---
+title: "Assessing the regional impact of Japan's COVID-19 state of emergency declaration: a population-level observational study using social networking services"
+author:
+  - Daisuke Yoneoka
+  - Shoi Shi
+  - Shuhei Nomura
+  - Yuta Tanoue
+  - Takayuki Kawashima
+  - Akifumi Eguchi
+  - Kentaro Matsuura
+  - Koji Makiyama
+  - Shinya Uryu
+  - Keisuke Ejima
+  - Haruka Sakamoto
+  - Toshibumi Taniguchi
+  - Hiroyuki Kunishima
+  - Stuart Gilmour
+  - Hiroshi Nishiura
+  - Hiroaki Miyata
+year: 2021
+venue: "BMJ Open"
+doi: "10.1136/bmjopen-2020-042002"
+type: article
+---
+
+Published in *BMJ Open*. [doi:10.1136/bmjopen-2020-042002](https://doi.org/10.1136/bmjopen-2020-042002)
+
+Population-level observational evidence, drawn from social networking services, on the regional impact of Japan's COVID-19 state of emergency.

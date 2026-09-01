@@ -1,0 +1,29 @@
+---
+title: "Trends in emergency transportation due to heat illness under the new normal lifestyle in the COVID-19 era, in Japan and 47 prefectures"
+author:
+  - Shinya Uryu
+  - Yuta Tanoue
+  - Shuhei Nomura
+  - Kentaro Matsuura
+  - Koji Makiyama
+  - Takayuki Kawashima
+  - Daisuke Yoneoka
+  - Akifumi Eguchi
+  - Yumi Kawamura
+  - Stuart Gilmour
+  - Haruka Sakamoto
+  - Kazuki Shimizu
+  - Chris Fook Sheng Ng
+  - Masahiro Hashizume
+year: 2021
+venue: "Science of The Total Environment"
+doi: "10.1016/j.scitotenv.2020.144723"
+research-area:
+  - human-environment
+type: article
+featured: true
+---
+
+Published in *Science of The Total Environment*. [doi:10.1016/j.scitotenv.2020.144723](https://doi.org/10.1016/j.scitotenv.2020.144723)
+
+Nationwide and prefecture-level trends in heat illness ambulance transport under COVID-19 "new normal" behavior — the foundation of the ongoing [heat risk and mobility](../../research/heat-mobility/index.qmd) project.

@@ -1,0 +1,25 @@
+---
+title: "Trends in Healthcare Access in Japan during the First Wave of the COVID-19 Pandemic, up to June 2020"
+author:
+  - Koji Makiyama
+  - Takayuki Kawashima
+  - Shuhei Nomura
+  - Akifumi Eguchi
+  - Daisuke Yoneoka
+  - Yuta Tanoue
+  - Yumi Kawamura
+  - Haruka Sakamoto
+  - Stuart Gilmour
+  - Shoi Shi
+  - Kentaro Matsuura
+  - Shinya Uryu
+  - Masahiro Hashizume
+year: 2021
+venue: "International Journal of Environmental Research and Public Health"
+doi: "10.3390/ijerph18063271"
+type: article
+---
+
+Published in *International Journal of Environmental Research and Public Health*. [doi:10.3390/ijerph18063271](https://doi.org/10.3390/ijerph18063271)
+
+Documents how healthcare access in Japan shifted during the first wave of the COVID-19 pandemic.

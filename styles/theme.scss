@@ -40,7 +40,7 @@ $footer-bg: $body-bg;
   --accent-hi-text: #{$accent-human-information-text};
 }
 
-// Editorial defaults: generous whitespace, hairline separators
+// Editorial defaults: dense broadsheet layout, hairline separators
 .navbar {
   border-bottom: 1px solid $border-color;
 }
@@ -52,12 +52,12 @@ h2 {
 
 // Hero (used only on the top page; markup lives in includes/_hero.qmd)
 .hero {
-  padding: clamp(3rem, 10vh, 7rem) 1.5rem;
+  padding: clamp(2rem, 6vh, 4rem) 1.5rem;
   max-width: 72rem;
   margin: 0 auto;
   display: grid;
   grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
-  gap: 3rem;
+  gap: 2rem;
   align-items: center;
 }
 
@@ -96,12 +96,12 @@ h2 {
 .axes {
   max-width: 72rem;
   margin: 0 auto;
-  padding: 2rem 1.5rem 4rem;
+  padding: 1.5rem 1.5rem 2rem;
 }
 
 .axis {
   border-top: 1px solid $border-color;
-  padding: 2rem 0;
+  padding: 1.25rem 0;
   display: grid;
   grid-template-columns: 4rem minmax(0, 1fr);
   gap: 1.5rem;
@@ -130,5 +130,100 @@ h2 {
 .home-section {
   max-width: 72rem;
   margin: 0 auto;
-  padding: 2rem 1.5rem;
+  padding: 1.5rem 1.5rem;
+}
+
+// Stats strip: one dense line of site-wide numbers under the hero
+.home-stats {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 0.75rem 1.5rem;
+  border-top: 1px solid $border-color;
+  border-bottom: 1px solid $border-color;
+  font-size: 0.9rem;
+  color: $text-muted;
+  font-variant-numeric: tabular-nums;
+
+  strong {
+    color: $body-color;
+  }
+}
+
+// News: dense dated list
+.home-news {
+  h2 {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    border-bottom: 1px solid $border-color;
+    padding-bottom: 0.5rem;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
+
+  li {
+    border-bottom: 1px solid $border-color;
+    padding: 0.5rem 0;
+    font-size: 0.95rem;
+  }
+}
+
+// Two-column publications area and bottom grid
+.home-columns,
+.home-grid {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 1.5rem 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 3rem;
+
+  h2 {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    border-bottom: 1px solid $border-color;
+    padding-bottom: 0.5rem;
+  }
+}
+
+.home-col,
+.home-cell {
+  min-width: 0;
+}
+
+// Compact listings inside home columns/cells
+.home-col,
+.home-cell {
+  .quarto-post,
+  .listing-item {
+    margin-bottom: 0.6rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 1px solid $border-color;
+  }
+
+  .quarto-post .body h3.listing-title,
+  .quarto-post .listing-title {
+    font-size: 0.98rem;
+    margin: 0 0 0.15rem;
+  }
+
+  .quarto-post .metadata,
+  .quarto-post .listing-subtitle,
+  .quarto-post .listing-author,
+  .quarto-post .listing-venue {
+    font-size: 0.85rem;
+    color: $text-muted;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-columns,
+  .home-grid {
+    grid-template-columns: 1fr;
+  }
 }

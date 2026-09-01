@@ -34,6 +34,10 @@ Required: `title`, `subtitle`, `type`. Recommended: `repository` (URL), `doi` (v
 
 This section is the single source of truth for datasets and software; research project pages link here rather than restating the details.
 
+## Funding (prose section on `research/index.qmd`)
+
+Grants are a curated prose section (`## Funding`) on the research index, not per-item pages. List **awarded and held grants only** — never pending applications, planned submissions, rejected proposals, or grants declined after award, and never internal detail (budgets beyond public records, effort shares, application strategy). Each entry: official English title, funder + scheme, grant number linked to its public record (e.g., KAKEN), period, role, one- or two-sentence public-abstract-level description, and a link to the related research project page.
+
 ## Research note (`notes/<slug>/index.qmd` or `notes/<slug>.qmd`)
 
 Required: `title`, `date`, `description`. Recommended: `research-area`, `categories`. Notes may execute R / Python; they are rendered locally and frozen (see `docs/architecture.md`). Computational figures must carry `fig-alt`.

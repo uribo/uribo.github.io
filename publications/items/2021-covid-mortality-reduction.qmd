@@ -1,0 +1,37 @@
+---
+title: "Reduced mortality during the COVID-19 outbreak in Japan, 2020: a two-stage interrupted time-series design"
+author:
+  - Daisuke Onozuka
+  - Yuta Tanoue
+  - Shuhei Nomura
+  - Takayuki Kawashima
+  - Daisuke Yoneoka
+  - Akifumi Eguchi
+  - Chris Fook Sheng Ng
+  - Kentaro Matsuura
+  - Shoi Shi
+  - Koji Makiyama
+  - Shinya Uryu
+  - Yumi Kawamura
+  - Shinichi Takayanagi
+  - Stuart Gilmour
+  - Takehiko I. Hayashi
+  - Hiroaki Miyata
+  - Francesco Sera
+  - Tomimasa Sunagawa
+  - Takuri Takahashi
+  - Yuuki Tsuchihashi
+  - Yusuke Kobayashi
+  - Yuzo Arima
+  - Kazuhiko Kanou
+  - Motoi Suzuki
+  - Masahiro Hashizume
+year: 2021
+venue: "International Journal of Epidemiology"
+doi: "10.1093/ije/dyab216"
+type: article
+---
+
+Published in *International Journal of Epidemiology*. [doi:10.1093/ije/dyab216](https://doi.org/10.1093/ije/dyab216)
+
+A two-stage interrupted time-series analysis showing reduced all-cause mortality in Japan during the 2020 COVID-19 outbreak.
