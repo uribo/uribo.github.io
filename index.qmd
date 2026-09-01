@@ -1,0 +1,72 @@
+---
+title: "Shinya Uryu — Human × Environment × Information"
+page-layout: custom
+toc: false
+listing:
+  - id: featured-publications
+    contents: publications/items
+    include:
+      featured: true
+    type: default
+    sort: "year desc"
+    max-items: 4
+    fields: [title, author, year]
+---
+
+{{< include includes/_hero.qmd >}}
+
+::: {.axes}
+## What We Study
+
+::: {.axis .axis--he}
+<span class="axis-number">01</span>
+<div>
+### Human × Environment
+
+How do people move through, and get exposed to, environmental risk? Extreme heat, human mobility, and spatial exposure in cities and regions.
+
+<p class="axis-keywords">extreme heat · human mobility · spatial exposure · urban environment · spatial analysis</p>
+</div>
+:::
+
+::: {.axis .axis--ei}
+<span class="axis-number">02</span>
+<div>
+### Environment × Information
+
+How are nature and biodiversity represented in the information space? Conservation culturomics and biodiversity perception through digital corpora.
+
+<p class="axis-keywords">biodiversity · conservation culturomics · human–nature relationships · biodiversity perception</p>
+</div>
+:::
+
+::: {.axis .axis--hi}
+<span class="axis-number">03</span>
+<div>
+### Human × Information
+
+How is knowledge about nature and science structured across languages and platforms? Multilingual Wikipedia, natural language processing, and knowledge graphs.
+
+<p class="axis-keywords">Wikipedia · multilingual data · NLP · knowledge graphs · network science</p>
+</div>
+:::
+
+[Explore the research →](research/index.qmd)
+:::
+
+::: {.home-section}
+## Selected Publications
+
+::: {#featured-publications}
+:::
+
+[All publications →](publications/index.qmd)
+:::
+
+::: {.home-section}
+## Data & Software
+
+Datasets, research software, and interactive visualizations are first-class research outputs here, alongside papers.
+
+[Browse data & software →](data-software/index.qmd)
+:::

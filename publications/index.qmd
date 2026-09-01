@@ -1,0 +1,15 @@
+---
+title: Publications
+listing:
+  id: all-publications
+  contents: items
+  type: default
+  sort: "year desc"
+  categories: false
+  fields: [title, author, year]
+---
+
+Peer-reviewed articles, preprints, and other written outputs. Datasets and software have [their own section](../data-software/index.qmd).
+
+::: {#all-publications}
+:::

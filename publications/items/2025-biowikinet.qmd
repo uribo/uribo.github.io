@@ -1,0 +1,16 @@
+---
+# TODO: replace title/authors with exact bibliographic record (fetch via DOI lookup).
+title: "TODO — BioWikiNet: multilingual Wikipedia biodiversity knowledge dataset (exact title pending DOI lookup)"
+author:
+  - Shinya Uryu
+year: 2025
+venue: "Scientific Data"
+doi: "10.1038/s41597-025-06524-1"
+research-area:
+  - environment-information
+  - human-information
+type: article
+featured: true
+---
+
+Published in *Scientific Data*. [doi:10.1038/s41597-025-06524-1](https://doi.org/10.1038/s41597-025-06524-1)

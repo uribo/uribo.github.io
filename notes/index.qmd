@@ -1,0 +1,18 @@
+---
+title: "Research Notes"
+listing:
+  id: all-notes
+  contents:
+    - "*/index.qmd"
+    - "*.qmd"
+  type: default
+  sort: "date desc"
+  fields: [date, title, description]
+---
+
+Analysis memos, data visualization experiments, technical notes, and work-in-progress findings — with the R / Python code that produced them.
+
+Notes are computational documents: they are rendered locally and their results are frozen, so what you see is what actually ran.
+
+::: {#all-notes}
+:::

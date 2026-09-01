@@ -1,0 +1,14 @@
+---
+title: "Data & Software"
+listing:
+  id: all-data-software
+  contents: items
+  type: default
+  sort: "title"
+  fields: [title, subtitle]
+---
+
+Research outputs beyond papers: datasets, research software, and interactive visualizations.
+
+::: {#all-data-software}
+:::

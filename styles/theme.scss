@@ -1,0 +1,134 @@
+/*-- scss:defaults --*/
+
+// ---------------------------------------------------------------------------
+// Base palette (neutral UI; color belongs to research figures)
+// See docs/design-system.md before changing any value here.
+// ---------------------------------------------------------------------------
+$body-bg: #f7f7f3;
+$body-color: #181818;
+$text-muted: #6b6b67;
+$border-color: rgba(24, 24, 24, 0.16);
+
+// Research-area accents (graphic use: bands, marks, figure keys)
+$accent-human-environment: #d75b32;
+$accent-environment-information: #4f7651;
+$accent-human-information: #5367a5;
+
+// Text-safe variants (darkened for WCAG AA contrast on $body-bg;
+// verify with a contrast checker before use in small text)
+$accent-human-environment-text: #a8431f;
+$accent-environment-information-text: #3d5c3f;
+$accent-human-information-text: #40518a;
+
+$font-family-sans-serif: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$headings-font-weight: 650;
+$link-color: $body-color;
+$link-decoration: underline;
+
+$navbar-bg: $body-bg;
+$navbar-fg: $body-color;
+$footer-bg: $body-bg;
+
+/*-- scss:rules --*/
+
+:root {
+  --accent-he: #{$accent-human-environment};
+  --accent-ei: #{$accent-environment-information};
+  --accent-hi: #{$accent-human-information};
+  --accent-he-text: #{$accent-human-environment-text};
+  --accent-ei-text: #{$accent-environment-information-text};
+  --accent-hi-text: #{$accent-human-information-text};
+}
+
+// Editorial defaults: generous whitespace, hairline separators
+.navbar {
+  border-bottom: 1px solid $border-color;
+}
+
+h1,
+h2 {
+  letter-spacing: -0.01em;
+}
+
+// Hero (used only on the top page; markup lives in includes/_hero.qmd)
+.hero {
+  padding: clamp(3rem, 10vh, 7rem) 1.5rem;
+  max-width: 72rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+  gap: 3rem;
+  align-items: center;
+}
+
+.hero-title {
+  font-size: clamp(1.8rem, 4.5vw, 3.4rem);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin: 0 0 1rem;
+}
+
+.hero-lede {
+  font-size: clamp(1rem, 1.6vw, 1.25rem);
+  color: $text-muted;
+  margin: 0 0 0.5rem;
+}
+
+.hero-lede-ja {
+  font-size: 0.95rem;
+  color: $text-muted;
+}
+
+.hero-identity {
+  margin-top: 2rem;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+// "What We Study" axes: editorial list, not cards
+.axes {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+}
+
+.axis {
+  border-top: 1px solid $border-color;
+  padding: 2rem 0;
+  display: grid;
+  grid-template-columns: 4rem minmax(0, 1fr);
+  gap: 1.5rem;
+}
+
+.axis-number {
+  font-variant-numeric: tabular-nums;
+  color: $text-muted;
+}
+
+.axis h3 {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+.axis-keywords {
+  color: $text-muted;
+  font-size: 0.9rem;
+}
+
+.axis--he .axis-number { color: $accent-human-environment-text; }
+.axis--ei .axis-number { color: $accent-environment-information-text; }
+.axis--hi .axis-number { color: $accent-human-information-text; }
+
+// Section wrapper for custom-layout top page
+.home-section {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}

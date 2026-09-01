@@ -1,0 +1,21 @@
+---
+title: "Join"
+---
+
+## For Prospective Students / 学生の皆さんへ
+
+Interested in data-driven research on people, the environment, and the information space? Get in touch.
+
+人間・環境・情報空間をデータで読み解く研究に関心のある学生を歓迎します。研究テーマの相談はメールでご連絡ください。
+
+## Collaboration / 共同研究
+
+Open to collaborations across ecology, urban science, and computational social science.
+
+生態学・都市科学・計算社会科学にまたがる共同研究のご相談を受け付けています。
+
+## Contact
+
+- Email: uryu.shinya@tokushima-u.ac.jp
+- GitHub: [uribo](https://github.com/uribo)
+- Affiliation: Center for Design-Oriented AI Education and Research, Tokushima University

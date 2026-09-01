@@ -1,0 +1,15 @@
+---
+# TODO: replace title/authors with exact bibliographic record (fetch via DOI lookup).
+title: "TODO — LLM benchmark of IUCN Red List species knowledge (exact title pending DOI lookup)"
+author:
+  - Shinya Uryu
+year: 2026
+venue: "Ecological Informatics"
+doi: "10.1016/j.ecoinf.2026.103839"
+research-area:
+  - human-information
+type: article
+featured: true
+---
+
+Published in *Ecological Informatics*, vol. 96. [doi:10.1016/j.ecoinf.2026.103839](https://doi.org/10.1016/j.ecoinf.2026.103839)

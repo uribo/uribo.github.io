@@ -1,0 +1,40 @@
+<!--
+PROTECTED FILE: hand-crafted hero markup for the top page.
+Agents must not edit this file unless the change is explicitly requested. See AGENTS.md.
+-->
+
+::: {.hero}
+::: {.hero-copy}
+<h1 class="hero-title">HUMAN × ENVIRONMENT × INFORMATION</h1>
+
+<p class="hero-lede">Understanding human–environment–information systems through data.</p>
+
+<p class="hero-lede-ja">人間・環境・情報空間の関係をデータで読み解く</p>
+
+<p class="hero-identity">Shinya Uryu — Assistant Professor, Center for Design-Oriented AI Education and Research, Tokushima University</p>
+:::
+
+::: {.hero-visual}
+```{=html}
+<!-- Visual Abstract v0: the research triad as a triangle whose edges are the three
+     research axes. Replace with a data-driven SVG when signature figures are ready. -->
+<svg viewBox="0 0 400 360" role="img" aria-label="Triangle diagram of the research triad: Human, Environment, and Information at the vertices; the three research axes are the edges connecting them." style="width:100%;height:auto;">
+  <g fill="none" stroke-width="2.5">
+    <line x1="200" y1="60" x2="80"  y2="280" stroke="var(--accent-he)" />
+    <line x1="80"  y1="280" x2="320" y2="280" stroke="var(--accent-ei)" />
+    <line x1="320" y1="280" x2="200" y2="60"  stroke="var(--accent-hi)" />
+  </g>
+  <g fill="#181818" font-family="inherit" font-size="15" font-weight="600" text-anchor="middle">
+    <text x="200" y="42">HUMAN</text>
+    <text x="80"  y="308">ENVIRONMENT</text>
+    <text x="320" y="308">INFORMATION</text>
+  </g>
+  <g fill="#6b6b67" font-size="11" text-anchor="middle">
+    <text x="118" y="164" transform="rotate(-61 118 164)">heat / mobility / exposure</text>
+    <text x="200" y="298">culturomics / perception</text>
+    <text x="282" y="164" transform="rotate(61 282 164)">Wikipedia / NLP / knowledge</text>
+  </g>
+</svg>
+```
+:::
+:::

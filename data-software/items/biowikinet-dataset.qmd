@@ -1,0 +1,14 @@
+---
+title: "BioWikiNet"
+subtitle: "Multilingual Wikipedia knowledge graph of biodiversity"
+type: dataset
+repository: "https://github.com/uribo/wiki_biocorpus"
+# TODO: add the versioned Figshare DOI for the latest release (v5).
+research-area:
+  - environment-information
+  - human-information
+related-publications:
+  - "10.1038/s41597-025-06524-1"
+---
+
+A multilingual Wikipedia-derived knowledge graph of biodiversity. Described in [Scientific Data](https://doi.org/10.1038/s41597-025-06524-1); code at [uribo/wiki_biocorpus](https://github.com/uribo/wiki_biocorpus).

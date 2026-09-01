@@ -1,0 +1,48 @@
+---
+title: Research
+listing:
+  - id: projects-he
+    contents: "*/index.qmd"
+    include:
+      research-area: "human-environment"
+    type: default
+    sort: "title"
+    fields: [title, subtitle]
+  - id: projects-ei
+    contents: "*/index.qmd"
+    include:
+      research-area: "environment-information"
+    type: default
+    sort: "title"
+    fields: [title, subtitle]
+  - id: projects-hi
+    contents: "*/index.qmd"
+    include:
+      research-area: "human-information"
+    type: default
+    sort: "title"
+    fields: [title, subtitle]
+---
+
+Our research sits on the three edges of one triad — **Human**, **Environment**, and **Information** — asking how people, environmental risk, and the information space shape each other.
+
+## 01 Human × Environment
+
+**Research question:** how do human behavior and environmental risk interact in space and time?
+
+::: {#projects-he}
+:::
+
+## 02 Environment × Information
+
+**Research question:** how are nature and biodiversity perceived and represented in the information space?
+
+::: {#projects-ei}
+:::
+
+## 03 Human × Information
+
+**Research question:** how is knowledge structured across languages, platforms, and networks?
+
+::: {#projects-hi}
+:::

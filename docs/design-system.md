@@ -1,0 +1,19 @@
+# Design System
+
+Concept: **Research Observatory / Scientific Data Story**. The UI stays neutral and editorial; color and visual interest belong to research figures. No card grids, no stock photography, no campus imagery.
+
+## Palette
+
+Neutral base: background `#F7F7F3`, text `#181818`, muted `#6B6B67`, border `rgba(24,24,24,0.16)`.
+
+Research-area accents come in two tiers. **Graphic tier** (bands, marks, figure keys, large display text): `#D75B32` (human-environment), `#4F7651` (environment-information), `#5367A5` (human-information). **Text tier** (small text on the light background; darkened for WCAG AA): `#A8431F`, `#3D5C3F`, `#40518A`. The graphic-tier orange fails AA for body-size text on `#F7F7F3` — never use it below heading size. Verify any new color pair with a contrast checker before adding it.
+
+Accents are used sparingly: as category markers and figure support, never as UI decoration. The site is light-mode only (deliberate; do not add a dark theme without a design pass).
+
+## Typography and layout
+
+Large display typography with `clamp()` sizing, generous whitespace, hairline separators (`1px` borders) instead of boxes. The top page is the only custom layout (`page-layout: custom`); every other page uses Quarto's standard article layout for readability.
+
+## Figures
+
+Every figure carries `fig-alt` (enforced culturally, spot-checked in review). Figures reused from papers require a license check first (CC-BY is safe; publisher-owned figures are not). Top-page figures should be re-rendered with this palette for coherence rather than pasted from papers.

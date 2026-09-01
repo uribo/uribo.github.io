@@ -1,0 +1,38 @@
+---
+title: "Heat Risk & Human Mobility"
+subtitle: "Spatial exposure to extreme heat through the lens of human movement"
+research-area:
+  - human-environment
+status: active
+---
+
+<!-- TEMPLATE PROJECT PAGE: this is the canonical structure for research project pages.
+     Sections may be omitted while a project is young, but keep the order. -->
+
+## Research Question
+
+How does human mobility shape who is exposed to extreme heat, beyond what residential population maps suggest?
+
+## Background
+
+TODO
+
+## Approach
+
+TODO
+
+## Representative Findings
+
+TODO — computational figures go here; render locally so results are frozen (see docs/architecture.md).
+
+## Related Publications
+
+TODO — link to entries under `publications/items/`.
+
+## Data & Code
+
+TODO — link to entries under `data-software/items/`.
+
+## Related Projects
+
+TODO

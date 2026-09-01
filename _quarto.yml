@@ -1,0 +1,57 @@
+project:
+  type: website
+  output-dir: _site
+  # Only .qmd files are site pages; .md files (docs/, README, AGENTS, CLAUDE) are
+  # internal documentation and must not be published.
+  render:
+    - "**/*.qmd"
+
+# Execution policy: computational documents are rendered locally and frozen.
+# CI renders with Quarto only (no R / Python toolchain). See docs/architecture.md.
+execute:
+  freeze: auto
+
+lang: en
+
+website:
+  title: "Shinya Uryu"
+  site-url: https://uribo.github.io
+  description: "Understanding human–environment–information systems through data"
+  repo-url: https://github.com/uribo/uribo.github.io
+  open-graph: true
+  twitter-card: true
+  search:
+    location: navbar
+    type: overlay
+  navbar:
+    pinned: true
+    left:
+      - text: Research
+        href: research/index.qmd
+      - text: Publications
+        href: publications/index.qmd
+      - text: "Data & Software"
+        href: data-software/index.qmd
+      - text: Notes
+        href: notes/index.qmd
+      - text: Join
+        href: join/index.qmd
+    right:
+      - icon: github
+        href: https://github.com/uribo
+        aria-label: GitHub
+  page-footer:
+    left: |
+      Shinya Uryu — Center for Design-Oriented AI Education and Research, Tokushima University
+    right: |
+      Built with [Quarto](https://quarto.org)
+
+format:
+  html:
+    theme:
+      - default
+      - styles/theme.scss
+    toc: true
+    anchor-sections: true
+    smooth-scroll: true
+    link-external-newwindow: true
