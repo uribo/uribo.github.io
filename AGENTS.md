@@ -11,7 +11,7 @@ Personal research website of Shinya Uryu (Tokushima University). Built with Quar
 5. **`research-area` is a closed vocabulary**: `human-environment`, `environment-information`, `human-information`. Defined in `docs/content-model.md`; validated by `scripts/validate.py`. Do not invent new values.
 6. **Validate before committing**: `uv run scripts/validate.py && quarto render`.
 7. **Branch + PR, never push `main` directly.** `main` deploys to the public site via GitHub Actions.
-8. Site content is US English (Japanese appears only in the hero tagline and on `join/`). Do not hard-wrap prose in Markdown/QMD.
+8. Site content is US English. Japanese appears only in the hero tagline, on `join/`, and as original titles of Japanese books and talks on `about/`, each followed by an English gloss. Do not hard-wrap prose in Markdown/QMD.
 
 ## Documentation map
 

@@ -36,23 +36,28 @@ Trained in forest ecology, he worked as a data engineer in industry and at the N
 
 Invited talks, seminars, and courses for industry, local communities, and the public. Conference presentations are listed on [researchmap](https://researchmap.jp/suryu/presentations).
 
-- **2026** — "Supporting data analysis with generative AI: practice, appropriate use, and reproducible research," seminar, Japanese Society of Computational Statistics (October 31, online)
-- **2026** — "Practical AI and data science you can use from tomorrow," course for working adults, Tokushima Recurrent Education Program (October–November)
-- **2026** — "Basics of AI," invited talk at a briefing for accommodation operators in Tokushima Prefecture (September)
-- **2025, 2026** — Generative AI seminars for local business owners, Komatsushima Chamber of Commerce and Industry
-- **2022–2026** — Annual public extension course on data science and generative AI for working adults, Tokushima University (topic changes each year)
-- **2025** — "Positron: a next-generation IDE for AI and data science with R and Python," seminar, Japanese Society of Computational Statistics
-- **2025** — "Engineers and AI: driving innovation to solve social challenges," invited talk, The Institution of Professional Engineers, Japan (Tokushima)
-- **2024** — "Generative AI: fundamentals and social impact," invited lecture for court staff
-- **2024** — "What big data reveal," invited research seminar for engineers at a manufacturer in Tokushima
-- **2024** — "Reproducibility in computational statistics research: problems and solutions," invited seminar, JSCS Forum 2024
-- **2024** — "Machine learning with R," invited tutorial, Japan Statistical Society Spring Meeting
-- **2024** — "Information and its use for learning," lecture for high-school students
-- **2023** — "An introduction to the tidyverse for taking the next step," online workshop, The Institute of Statistical Mathematics
-- **2022** — "Using R in high-school informatics," training for high-school informatics teachers, Tokushima Prefecture
-- **2022** — "Tourism in Tokushima before and during COVID-19, seen through human mobility data," Shikoku Open Innovation Workshop
-- **2022** — "Data visualization and mapping with R," online workshop, The Institute of Statistical Mathematics
-- **2021** — "Data visualization for data analysis with R," invited tutorial (co-taught), Japanese Joint Statistical Meeting
-- **2019** — "Feature engineering for data analysis: principles and practice," seminar for industry practitioners, Johokiko (Tokyo)
-- **2018** — "Geospatial data manipulation and visualization with R," invited talk, FOSS4G 2018 Tokyo
-- **2017** — "Processing geospatial data with R the modern way," invited talk, FOSS4G Hokkaido 2017
+- **2026** — *生成AIによるデータ分析の支援と実践：適切な利用と再現可能性研究* ("Supporting data analysis with generative AI: practice, appropriate use, and reproducible research"), seminar, Japanese Society of Computational Statistics (October 31, online)
+- **2026** — *明日からでも使えるAI・DS実践講座* ("Practical AI and data science you can use from tomorrow"), course for working adults, Tokushima Recurrent Education Program (October–November)
+- **2026** — *AIの基礎知識について* ("Basics of AI"), invited talk at a briefing for accommodation operators in Tokushima Prefecture (September)
+- **2025, 2026** — *生成AIツール活用セミナー* ("Seminar on generative AI tools") and a follow-up seminar for local business owners, Komatsushima Chamber of Commerce and Industry
+- **2022–2026** — Annual public extension course for working adults, Tokushima University:
+  - 2026: *はじめての生成AI活用：仕事の文書・資料づくり実践講座* ("Getting started with generative AI: writing documents and materials at work")
+  - 2025: *はじめてのAI活用術：仕事に活かす基礎と実践* ("Getting started with AI: basics and practice for work")
+  - 2024: *仕事で役立つ人工知能（AI）エンジニアリング* ("AI engineering for work")
+  - 2023: *仕事ではじめるデータサイエンス・AI（入門編）* ("Data science and AI at work: an introduction")
+  - 2022: *ビジネスに役立つデータ分析（入門編）* ("Data analysis for business: an introduction")
+- **2025** — *「Positron」によるAI・データサイエンス〜R、Pythonユーザーのための次世代IDE* ("AI and data science with Positron, a next-generation IDE for R and Python users"), seminar, Japanese Society of Computational Statistics
+- **2025** — *技術士×AI：社会課題を解決するイノベーションの原動力* ("Professional engineers and AI: driving innovation to solve social challenges"), invited talk, The Institution of Professional Engineers, Japan (Tokushima)
+- **2024** — *生成AIの基礎的事項と社会に与える影響* ("Generative AI: fundamentals and social impact"), invited lecture for court staff
+- **2024** — *ビッグデータから見えるもの* ("What big data reveal"), invited research seminar for engineers at a manufacturer in Tokushima
+- **2024** — *計算機統計学研究における再現可能性の課題と解決策* ("Reproducibility in computational statistics research: problems and solutions"), invited seminar, JSCS Forum 2024
+- **2024** — *Rユーザのための機械学習チュートリアル* ("A machine learning tutorial for R users"), invited tutorial, Japan Statistical Society Spring Meeting
+- **2024** — *「情報」の背景と学修のための情報活用* ("Information and its use for learning"), lecture for high-school students
+- **2023** — *次の一歩を踏み出すためのtidyverse入門* ("An introduction to the tidyverse for taking the next step"), online workshop, The Institute of Statistical Mathematics
+- **2022** — *高等学校情報科におけるR言語の活用* ("Using R in high-school informatics"), training for high-school informatics teachers, Tokushima Prefecture
+- **2022** — *徳島県内在住者における移動時の行動様式と健康状態の分析* ("Mobility patterns and health status of residents of Tokushima Prefecture"), Shikoku Open Innovation Workshop
+- **2022** — *Rによるデータ可視化と地図表現* ("Data visualization and mapping with R"), online workshop, The Institute of Statistical Mathematics
+- **2021** — *Rによるデータ解析のためのデータ可視化* ("Data visualization for data analysis with R"), invited tutorial (co-taught), Japanese Joint Statistical Meeting
+- **2019** — *データ分析における特徴量エンジニアリング〜多種多様なデータを扱う際の原理と実践〜* ("Feature engineering for data analysis: principles and practice"), seminar for industry practitioners, Johokiko (Tokyo)
+- **2018** — *Rを用いた地理空間データの操作と可視化* ("Geospatial data manipulation and visualization with R"), invited talk, FOSS4G 2018 Tokyo
+- **2017** — *モダンな方法で学ぶ、Rによる地理空間情報データの処理* ("Processing geospatial data with R the modern way"), invited talk, FOSS4G Hokkaido 2017
