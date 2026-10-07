@@ -42,7 +42,7 @@ listing:
 :::
 
 ::: {.axes}
-## What We Study
+## Research Areas
 
 ::: {.axis .axis--he}
 <span class="axis-number">01</span>

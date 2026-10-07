@@ -24,7 +24,7 @@ listing:
     fields: [image, title, subtitle]
 ---
 
-Our research sits on the three edges of one triad — **Human**, **Environment**, and **Information** — asking how people, environmental risk, and the information space shape each other.
+This research sits on the three edges of one triad — **Human**, **Environment**, and **Information** — asking how people, environmental risk, and the information space shape each other.
 
 ## 01 Human × Environment
 
