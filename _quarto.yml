@@ -18,8 +18,10 @@ website:
   site-url: https://uribo.github.io
   description: "Understanding human–environment–information systems through data"
   repo-url: https://github.com/uribo/uribo.github.io
+  image: assets/social/social-preview.png  # 1280x640; source: assets/social/social-preview.html
   open-graph: true
-  twitter-card: true
+  twitter-card:
+    card-style: summary_large_image
   search:
     location: navbar
     type: overlay
