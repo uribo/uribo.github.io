@@ -31,3 +31,28 @@ Trained in forest ecology, he worked as a data engineer in industry and at the N
 - *Rユーザのためのtidymodels〈実践〉入門* (co-author; Gijutsu-Hyoron, 2023) — a practical introduction to modern statistical and machine learning modeling with tidymodels
 - *データ分析のためのデータ可視化入門* (translator; Kodansha Scientific, 2021) — Japanese translation of Kieran Healy, *Data Visualization: A Practical Introduction*
 - *Rによるスクレイピング入門* (co-author; C&R Institute, 2017) — web scraping with R
+
+## Talks & Outreach
+
+Invited talks, seminars, and courses for industry, local communities, and the public. Conference presentations are listed on [researchmap](https://researchmap.jp/suryu/presentations).
+
+- **2026** — "Supporting data analysis with generative AI: practice, appropriate use, and reproducible research," seminar, Japanese Society of Computational Statistics (October 31, online)
+- **2026** — "Practical AI and data science you can use from tomorrow," course for working adults, Tokushima Recurrent Education Program (October–November)
+- **2026** — "Basics of AI," invited talk at a briefing for accommodation operators in Tokushima Prefecture (September)
+- **2025, 2026** — Generative AI seminars for local business owners, Komatsushima Chamber of Commerce and Industry
+- **2022–2026** — Annual public extension course on data science and generative AI for working adults, Tokushima University (topic changes each year)
+- **2025** — "Positron: a next-generation IDE for AI and data science with R and Python," seminar, Japanese Society of Computational Statistics
+- **2025** — "Engineers and AI: driving innovation to solve social challenges," invited talk, The Institution of Professional Engineers, Japan (Tokushima)
+- **2024** — "Generative AI: fundamentals and social impact," invited lecture for court staff
+- **2024** — "What big data reveal," invited research seminar for engineers at a manufacturer in Tokushima
+- **2024** — "Reproducibility in computational statistics research: problems and solutions," invited seminar, JSCS Forum 2024
+- **2024** — "Machine learning with R," invited tutorial, Japan Statistical Society Spring Meeting
+- **2024** — "Information and its use for learning," lecture for high-school students
+- **2023** — "An introduction to the tidyverse for taking the next step," online workshop, The Institute of Statistical Mathematics
+- **2022** — "Using R in high-school informatics," training for high-school informatics teachers, Tokushima Prefecture
+- **2022** — "Tourism in Tokushima before and during COVID-19, seen through human mobility data," Shikoku Open Innovation Workshop
+- **2022** — "Data visualization and mapping with R," online workshop, The Institute of Statistical Mathematics
+- **2021** — "Data visualization for data analysis with R," invited tutorial (co-taught), Japanese Joint Statistical Meeting
+- **2019** — "Feature engineering for data analysis: principles and practice," seminar for industry practitioners, Johokiko (Tokyo)
+- **2018** — "Geospatial data manipulation and visualization with R," invited talk, FOSS4G 2018 Tokyo
+- **2017** — "Processing geospatial data with R the modern way," invited talk, FOSS4G Hokkaido 2017

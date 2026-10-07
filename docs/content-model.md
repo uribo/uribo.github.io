@@ -49,7 +49,9 @@ This section is the single source of truth for datasets and software; research p
 
 ## About (`about/index.qmd`)
 
-Hand-maintained prose page: portrait photo (`about/shinya-uryu.jpg`), short English bio, Positions / Education / Books lists, and public profile links. No schema; keep facts consistent with researchmap. The portrait is the owner's current profile photo — replace the file in place (same path) when updating it.
+Hand-maintained prose page: portrait photo (`about/shinya-uryu.jpg`), short English bio, Positions / Education / Books / Talks & Outreach lists, and public profile links. No schema; keep facts consistent with researchmap.
+
+Talks & Outreach lists invited talks, society seminars and tutorials, regional and industry talks, and public courses, newest first; conference presentations and internal university events are left to researchmap. Name the host only for publicly advertised events; for closed trainings and commissioned briefings describe the audience instead (e.g. "for court staff"). Recurring series take one line with a year range. The portrait is the owner's current profile photo — replace the file in place (same path) when updating it.
 
 ## Funding (prose section on `research/index.qmd`)
 
