@@ -20,7 +20,7 @@ Online marketplaces leave long, fine-grained records of wildlife trade that trad
 
 ## Approach
 
-Long-term marketplace datasets (millions of listings across hundreds of species), causal inference around regulatory events, and text processing to identify species and trade context in listing data.
+Long-term marketplace datasets (millions of transactions across hundreds of species), causal inference around regulatory events, and text processing to identify species and trade context in listing data.
 
 ## Representative Findings
 
