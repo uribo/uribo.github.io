@@ -1,7 +1,8 @@
 """Shared bibliographic logic for publications (imported by sync_refs.py and validate.py).
 
-`publications/references.json` caches Crossref CSL-JSON keyed by bare DOI, exactly as
-Crossref returned it (trimmed to bibliographic fields). `publications/overrides.yml`
+`publications/references.json` caches the bibliographic fields of Crossref's CSL-JSON,
+keyed by bare DOI (see sync_refs.trim: volatile fields dropped, HTML entities decoded;
+values otherwise as Crossref returned them). `publications/overrides.yml`
 records deliberate corrections of publisher errors. The machine-owned front matter
 fields of an item are derived from both by `expected_fields()`; nothing here touches
 the network, so validate.py stays offline.

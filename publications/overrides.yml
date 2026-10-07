@@ -1,6 +1,6 @@
 # Deliberate corrections of publisher (Crossref) metadata, keyed by bare DOI.
 # Applied by scripts/sync_refs.py when writing items and by scripts/validate.py when
-# checking them; publications/references.json keeps Crossref's original values.
+# checking them; publications/references.json keeps Crossref's values (corrections never go there).
 # Allowed keys: title, venue, year, locator, author-rename (mapping), reason (required).
 
 "10.3201/eid2703.203925":
