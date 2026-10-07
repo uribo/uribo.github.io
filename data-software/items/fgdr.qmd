@@ -1,0 +1,10 @@
+---
+title: "fgdr"
+subtitle: "R package for GSI Fundamental Geospatial Data"
+type: software
+repository: "https://github.com/uribo/fgdr"
+image: /assets/illustrations/neutral.svg
+image-alt: "Line-art illustration: a flock of birds sweeping across the sky above a rolling horizon."
+---
+
+Reads the Geospatial Information Authority of Japan's Fundamental Geospatial Data (JPGIS XML, including digital elevation models) into R spatial objects such as 'sf', 'terra' and 'stars'. Archived from CRAN in 2025; the source remains on [GitHub](https://github.com/uribo/fgdr); documentation at [uribo.github.io/fgdr](https://uribo.github.io/fgdr/).

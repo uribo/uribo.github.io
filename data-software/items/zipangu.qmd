@@ -1,0 +1,10 @@
+---
+title: "zipangu"
+subtitle: "R package of Japanese utility functions and data"
+type: software
+repository: "https://github.com/uribo/zipangu"
+image: /assets/illustrations/neutral.svg
+image-alt: "Line-art illustration: a flock of birds sweeping across the sky above a rolling horizon."
+---
+
+Utility functions and data for Japan-specific formats: parsing addresses and postal codes, Japanese imperial years and public holidays, and kana and kanji-numeral conversion. Archived from CRAN in 2025; the source remains on [GitHub](https://github.com/uribo/zipangu); documentation at [uribo.github.io/zipangu](https://uribo.github.io/zipangu/).

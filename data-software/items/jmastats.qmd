@@ -1,0 +1,13 @@
+---
+title: "jmastats"
+subtitle: "R package for Japan Meteorological Agency weather data"
+type: software
+repository: "https://github.com/uribo/jmastats"
+doi: "10.32614/CRAN.package.jmastats"
+image: /assets/illustrations/axis-he.svg
+image-alt: "Line-art illustration: a person walking along a winding path under a radiating sun, with heat shimmer rising from the ground."
+research-area:
+  - human-environment
+---
+
+Downloads weather observations published by the Japan Meteorological Agency, with records back to 1976, and reads typhoon best-track data and earthquake records. On [CRAN](https://cran.r-project.org/package=jmastats); documentation at [uribo.github.io/jmastats](https://uribo.github.io/jmastats/); source on [GitHub](https://github.com/uribo/jmastats).

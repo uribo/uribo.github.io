@@ -1,0 +1,10 @@
+---
+title: "kuniezu"
+subtitle: "R package for Japan's national geography and coordinate systems"
+type: software
+repository: "https://github.com/uribo/kuniezu"
+image: /assets/illustrations/neutral.svg
+image-alt: "Line-art illustration: a flock of birds sweeping across the sky above a rolling horizon."
+---
+
+Data on Japan's national geography and tools for processing and visualizing Japan's coordinate systems. Archived from CRAN in 2021; the source remains on [GitHub](https://github.com/uribo/kuniezu); documentation at [uribo.github.io/kuniezu](https://uribo.github.io/kuniezu/).

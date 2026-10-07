@@ -1,0 +1,10 @@
+---
+title: "jpndistrict"
+subtitle: "R package for Japanese administrative area maps"
+type: software
+repository: "https://github.com/uribo/jpndistrict"
+image: /assets/illustrations/neutral.svg
+image-alt: "Line-art illustration: a flock of birds sweeping across the sky above a rolling horizon."
+---
+
+Builds maps of Japanese administrative areas and government offices from the National Land Numerical Information. Archived from CRAN in 2020; the source remains on [GitHub](https://github.com/uribo/jpndistrict); documentation at [uribo.github.io/jpndistrict](https://uribo.github.io/jpndistrict/).

@@ -1,0 +1,11 @@
+---
+title: "jpmesh"
+subtitle: "R package for Japanese grid square (mesh) codes"
+type: software
+repository: "https://github.com/uribo/jpmesh"
+doi: "10.32614/CRAN.package.jpmesh"
+image: /assets/illustrations/neutral.svg
+image-alt: "Line-art illustration: a flock of birds sweeping across the sky above a rolling horizon."
+---
+
+Converts between Japanese grid square (mesh) codes, from 80 km down to 100 m, and latitude–longitude coordinates, and maps them with 'ggplot2' and 'leaflet'. On [CRAN](https://cran.r-project.org/package=jpmesh); documentation at [uribo.github.io/jpmesh](https://uribo.github.io/jpmesh/); source on [GitHub](https://github.com/uribo/jpmesh).

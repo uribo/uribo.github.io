@@ -1,0 +1,13 @@
+---
+title: "sudachir"
+subtitle: "R interface to the Sudachi Japanese morphological analyzer"
+type: software
+repository: "https://github.com/uribo/sudachir"
+doi: "10.32614/CRAN.package.sudachir"
+image: /assets/illustrations/axis-hi.svg
+image-alt: "Line-art illustration: a tree whose foliage is characters from different writing systems."
+research-area:
+  - human-information
+---
+
+Brings the Sudachi Japanese morphological analyzer to R, mirroring its Python interface; co-developed with Akiru Kato. On [CRAN](https://cran.r-project.org/package=sudachir); documentation at [uribo.github.io/sudachir](https://uribo.github.io/sudachir/); source on [GitHub](https://github.com/uribo/sudachir).
