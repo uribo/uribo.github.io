@@ -43,7 +43,7 @@ Required: `title`, `subtitle`, `type`. Recommended: `repository` (URL), `doi` (v
 
 `type` ∈ `dataset` | `software` | `visualization` | `documentation`.
 
-R packages: `title` is the package name, `repository` the GitHub repository. A package on CRAN carries CRAN's package DOI (`10.32614/CRAN.package.<name>`, unversioned) and a CRAN link in the body. A package archived from CRAN carries no `doi` (it would resolve to the archive notice); the body states "Archived from CRAN in <year>" and links GitHub instead. Do not put version numbers in the body; they go stale.
+R packages: `title` is the package name, `repository` the GitHub repository, and `cran` ∈ `available` | `archived` records the CRAN status. The body opens with the badge line that `rpkg_badges()` in `scripts/validate.py` generates from `title` and `cran` (Shields.io CRAN version badge, or a static "CRAN archived" badge because Shields.io keeps showing the last version after archival, plus the r-universe development version); validate fails if the line is missing or does not match. When a package is archived or returns to CRAN, change `cran` and `doi` and paste the new line from the validate error. A package on CRAN carries CRAN's package DOI (`10.32614/CRAN.package.<name>`, unversioned) and a CRAN link in the body. A package archived from CRAN carries no `doi` (it would resolve to the archive notice); the body states "Archived from CRAN in <year>" and links GitHub instead. Do not put version numbers in the body; they go stale.
 
 This section is the single source of truth for datasets and software; research project pages link here rather than restating the details.
 

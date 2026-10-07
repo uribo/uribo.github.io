@@ -25,6 +25,7 @@ RESEARCH_AREAS = {"human-environment", "environment-information", "human-informa
 PUBLICATION_TYPES = {"article", "preprint", "proceedings", "chapter", "other"}
 DATA_SOFTWARE_TYPES = {"dataset", "software", "visualization", "documentation"}
 PROJECT_STATUSES = {"active", "paused", "completed"}
+CRAN_STATUSES = {"available", "archived"}
 
 errors: list[str] = []
 warnings: list[str] = []
@@ -105,6 +106,37 @@ TITLED_LINK_RE = re.compile(r"(.+) \((\d{4}), (.+)\)")  # "Title (2025, Venue)"
 AUTHOR_LINK_RE = re.compile(r"(\S+)(?: et al\.)? (\d{4}), (.+)")  # "Kubo et al. 2025, Venue"
 
 
+def rpkg_badges(name: str, cran: str) -> str:
+    """Badge line for an R package item (docs/content-model.md). Shields.io's CRAN
+    badge keeps showing the last version after archival, so archived packages get a
+    static badge instead. Explicit `.svg`: Quarto appends `.png` to extensionless
+    image paths."""
+    if cran == "available":
+        cran_badge = f"[![CRAN version](https://img.shields.io/cran/v/{name}.svg)](https://cran.r-project.org/package={name})"
+    else:
+        cran_badge = f"[![Archived from CRAN](https://img.shields.io/badge/CRAN-archived-lightgrey.svg)](https://cran.r-project.org/package={name})"
+    universe = (
+        "https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Furibo.r-universe.dev"
+        f"%2Fapi%2Fpackages%2F{name}&query=%24.Version&label=r-universe"
+    )
+    return f"{cran_badge} [![Development version on r-universe]({universe})](https://uribo.r-universe.dev/{name})"
+
+
+def check_rpkg(path: Path, meta: dict) -> None:
+    """`cran` status, CRAN DOI and badge line of an R package item must agree."""
+    rel = path.relative_to(ROOT)
+    cran, name = meta["cran"], str(meta.get("title", ""))
+    if cran not in CRAN_STATUSES:
+        return  # reported by check_enum
+    cran_doi = f"10.32614/CRAN.package.{name}"
+    if cran == "available" and meta.get("doi") != cran_doi:
+        errors.append(f"{rel}: 'cran: available' requires doi \"{cran_doi}\"")
+    if cran == "archived" and str(meta.get("doi", "")).startswith("10.32614/"):
+        errors.append(f"{rel}: 'cran: archived' must not carry a CRAN DOI")
+    if rpkg_badges(name, cran) not in path.read_text(encoding="utf-8"):
+        errors.append(f"{rel}: badge line missing or stale; expected:\n      {rpkg_badges(name, cran)}")
+
+
 def check_publication_links(pub_meta: dict[Path, dict]) -> None:
     """Titles, years and venues restated in link text must match the linked item."""
     for path in sorted(ROOT.rglob("*.qmd")):
@@ -174,6 +206,9 @@ def main() -> int:
         check_required(path, meta, ["title", "subtitle", "type"])
         check_enum(path, meta, "type", DATA_SOFTWARE_TYPES)
         check_enum(path, meta, "research-area", RESEARCH_AREAS)
+        check_enum(path, meta, "cran", CRAN_STATUSES)
+        if "cran" in meta:
+            check_rpkg(path, meta)
         check_todo(path, meta)
 
     notes_dir = ROOT / "notes"

@@ -2,6 +2,7 @@
 title: "ssrn"
 subtitle: "R package for scan statistics on railway networks"
 type: software
+cran: available
 repository: "https://github.com/uribo/ssrn"
 doi: "10.32614/CRAN.package.ssrn"
 image: /assets/illustrations/axis-he.svg
@@ -11,5 +12,7 @@ research-area:
 related-publications:
   - "10.1080/24709360.2022.2065628"
 ---
+
+[![CRAN version](https://img.shields.io/cran/v/ssrn.svg)](https://cran.r-project.org/package=ssrn) [![Development version on r-universe](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Furibo.r-universe.dev%2Fapi%2Fpackages%2Fssrn&query=%24.Version&label=r-universe)](https://uribo.r-universe.dev/ssrn)
 
 Implements scan statistics on railway networks to estimate high-risk routes of infectious disease transmission from passenger volume data; co-developed with Yuta Tanoue and Daisuke Yoneoka. Method described in [Biostatistics & Epidemiology](../../publications/items/2022-transit-network-scan.qmd). On [CRAN](https://cran.r-project.org/package=ssrn); source on [GitHub](https://github.com/uribo/ssrn).
