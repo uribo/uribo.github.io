@@ -1,5 +1,6 @@
 ---
 title: Research
+image: /assets/social/social-preview.png
 listing:
   - id: projects-he
     contents: "*/index.qmd"

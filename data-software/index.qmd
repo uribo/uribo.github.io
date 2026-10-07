@@ -1,5 +1,6 @@
 ---
 title: "Data & Software"
+image: /assets/social/social-preview.png
 listing:
   id: all-data-software
   contents: items

@@ -27,6 +27,20 @@ These are the manual procedures; they are the intended basis for future project 
 
 **Add a research note**: create under `notes/` → if it executes R / Python, render locally and commit the `_freeze/` output together with the source.
 
+**Regenerate social images** (after changing an illustration or the hero copy): render the HTML sources with headless Chrome at 1280×640, then review the PNGs and commit them.
+
+```sh
+chrome="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+for a in he ei hi neutral; do
+  "$chrome" --headless=new --hide-scrollbars --force-device-scale-factor=1 --window-size=1280,640 \
+    --virtual-time-budget=3000 --screenshot="assets/social/axis-$a.png" "file://$PWD/assets/social/axis-card.html?a=$a"
+done
+"$chrome" --headless=new --hide-scrollbars --force-device-scale-factor=1 --window-size=1280,640 \
+  --screenshot=assets/social/social-preview.png "file://$PWD/assets/social/social-preview.html"
+```
+
+A new illustration also needs a card: add it to `axis-card.html` and to `CARDS` in `scripts/og-images.ts`.
+
 ## Quarto upgrade procedure
 
 1. Upgrade locally; run `quarto render`; inspect the site visually (top page and one page per section).

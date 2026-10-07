@@ -1,5 +1,6 @@
 ---
 title: Publications
+image: /assets/social/social-preview.png
 listing:
   id: all-publications
   contents: items
