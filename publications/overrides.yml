@@ -1,0 +1,8 @@
+# Deliberate corrections of publisher (Crossref) metadata, keyed by bare DOI.
+# Applied by scripts/sync_refs.py when writing items and by scripts/validate.py when
+# checking them; publications/references.json keeps Crossref's original values.
+# Allowed keys: title, venue, year, locator, author-rename (mapping), reason (required).
+
+"10.3201/eid2703.203925":
+  title: "Excess All-Cause Deaths during Coronavirus Disease Pandemic, Japan, January–May 2020"
+  reason: "Crossref title carries the article's footnote marker (\"20201\")."

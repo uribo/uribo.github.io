@@ -22,6 +22,15 @@ Required: `title`, `author` (list), `year` (int), `type`. Recommended: `venue` (
 
 Body: one short paragraph at most; the page exists to carry metadata and link out via DOI.
 
+**Bibliographic fields are machine-owned when the item has a `doi`.** `title`, `author`, `year`, `venue` and `locator` (e.g. `vol. 27, no. 3, pp. 789–795`) are written by `uv run scripts/sync_refs.py` from Crossref and must not be hand-edited; `scripts/validate.py` fails on any mismatch. The rest (`type`, `research-area`, `featured`, `image`, `image-alt`, the summary) is hand-owned.
+
+- Source of truth: `publications/references.json`, the Crossref CSL-JSON record for each DOI (citation key = DOI; usable directly as a Pandoc `bibliography`). It stores Crossref's values unmodified.
+- Corrections: when Crossref itself is wrong (e.g. a footnote marker fused into a title), add an entry to `publications/overrides.yml` keyed by DOI with the corrected `title` / `venue` / `year` / `locator` or an `author-rename` mapping, plus a required `reason`. Otherwise Crossref wins, including its punctuation, capitalization and name forms.
+- `year` is Crossref's `issued` year (the earliest publication date, usually online), not the print issue year.
+- The body's first line is the generated `Published in *{{< meta venue >}}*, {{< meta locator >}}. [doi:…](…)` line; extra links (e.g. arXiv) may follow it on the same line.
+- Items without a DOI (books, some preprints) keep hand-written fields and are exempt from the check.
+- Link text elsewhere that restates a publication is checked against the item: `Title (YEAR, Venue)` (the title may be shortened but must be a prefix of the item title), `Surname et al. YEAR, Venue` (first author), and free-text links of three or more words that only differ from the title in capitalization.
+
 Recommended for all listed content types: `image` (site-absolute path to an `assets/illustrations/*.svg` matching the item's primary research area; `neutral.svg` when none fits) and `image-alt`. Every item in a listing should carry one so no placeholder thumbnails appear.
 
 ## Research project (`research/<slug>/index.qmd`)

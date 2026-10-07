@@ -15,7 +15,7 @@ author:
   - Yumi Kawamura
   - Shinichi Takayanagi
   - Stuart Gilmour
-  - Takehiko I. Hayashi
+  - Takehiko I Hayashi
   - Hiroaki Miyata
   - Francesco Sera
   - Tomimasa Sunagawa
@@ -27,6 +27,7 @@ author:
   - Motoi Suzuki
   - Masahiro Hashizume
 year: 2021
+locator: "vol. 51, no. 1, pp. 75–84"
 venue: "International Journal of Epidemiology"
 doi: "10.1093/ije/dyab216"
 image: /assets/illustrations/neutral.svg
@@ -34,6 +35,6 @@ image-alt: "Line-art illustration: a flock of birds sweeping across the sky abov
 type: article
 ---
 
-Published in *International Journal of Epidemiology*. [doi:10.1093/ije/dyab216](https://doi.org/10.1093/ije/dyab216)
+Published in *{{< meta venue >}}*, {{< meta locator >}}. [doi:{{< meta doi >}}](https://doi.org/{{< meta doi >}})
 
 A two-stage interrupted time-series analysis showing reduced all-cause mortality in Japan during the 2020 COVID-19 outbreak.

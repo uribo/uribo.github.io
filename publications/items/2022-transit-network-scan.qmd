@@ -10,6 +10,7 @@ author:
   - Koji Makiyama
   - Kentaro Matsuura
 year: 2022
+locator: "vol. 7, no. 1, article e2069458"
 venue: "Biostatistics & Epidemiology"
 doi: "10.1080/24709360.2022.2065628"
 research-area:
@@ -19,6 +20,6 @@ image-alt: "Line-art illustration: a person walking along a winding path under a
 type: article
 ---
 
-Published in *Biostatistics & Epidemiology*. [doi:10.1080/24709360.2022.2065628](https://doi.org/10.1080/24709360.2022.2065628)
+Published in *{{< meta venue >}}*, {{< meta locator >}}. [doi:{{< meta doi >}}](https://doi.org/{{< meta doi >}})
 
 A scan statistic defined over the public transportation network, for rapid detection of infectious disease clusters along real human movement rather than administrative boundaries.

@@ -3,6 +3,7 @@ title: "BioWikiNet: Multilingual wikipedia taxonomic networks aligned with the G
 author:
   - Shinya Uryu
 year: 2026
+locator: "vol. 13, no. 1, article 208"
 venue: "Scientific Data"
 doi: "10.1038/s41597-025-06524-1"
 research-area:
@@ -14,6 +15,6 @@ type: article
 featured: true
 ---
 
-Published in *Scientific Data*. [doi:10.1038/s41597-025-06524-1](https://doi.org/10.1038/s41597-025-06524-1)
+Published in *{{< meta venue >}}*, {{< meta locator >}}. [doi:{{< meta doi >}}](https://doi.org/{{< meta doi >}})
 
 A knowledge-graph dataset linking 1.27 million Wikipedia articles across 11 language editions to 752 thousand taxonomic entities of the GBIF backbone taxonomy. The dataset itself is archived on Figshare — see [Data & Software](../../data-software/items/biowikinet-dataset.qmd).

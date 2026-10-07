@@ -8,6 +8,7 @@ author:
   - Takehisa Yamakita
   - Yoshihisa Shirayama
 year: 2020
+locator: "vol. 77, article 104010"
 venue: "Tourism Management"
 doi: "10.1016/j.tourman.2019.104010"
 research-area:
@@ -17,6 +18,6 @@ image-alt: "Line-art illustration: a person walking along a winding path under a
 type: article
 ---
 
-Published in *Tourism Management*, vol. 77. [doi:10.1016/j.tourman.2019.104010](https://doi.org/10.1016/j.tourman.2019.104010)
+Published in *{{< meta venue >}}*, {{< meta locator >}}. [doi:{{< meta doi >}}](https://doi.org/{{< meta doi >}})
 
 Uses mobile phone network data to estimate the nationwide economic value of coastal tourism in Japan and how climate change may reshape it.

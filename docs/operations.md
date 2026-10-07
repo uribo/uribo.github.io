@@ -4,7 +4,8 @@
 
 ```sh
 quarto preview                      # live preview while editing
-uv run scripts/validate.py          # metadata validation (also runs in CI)
+uv run scripts/validate.py          # metadata validation (also runs in CI; offline)
+uv run scripts/sync_refs.py         # pull publication metadata from Crossref (network)
 quarto render                       # full build; commit _freeze/ changes if any
 ```
 
@@ -14,7 +15,11 @@ Work on a branch and open a PR; `main` is the deployment branch. CI must be gree
 
 These are the manual procedures; they are the intended basis for future project skills (`add-publication`, `add-project`, `add-dataset`, `add-note`, `site-qa`).
 
-**Add a publication**: look up the DOI (OpenAlex/Crossref) → create `publications/items/<year>-<slug>.qmd` with schema-conformant front matter (`docs/content-model.md`) → set `featured` deliberately (top page shows at most 4) → link it from the related research project page → validate + render.
+**Add a publication**: look up the DOI (OpenAlex/Crossref) → create `publications/items/<year>-<slug>.qmd` with `doi`, `type` and the hand-owned fields only (`docs/content-model.md`) → run `uv run scripts/sync_refs.py` to fill `title` / `author` / `year` / `venue` / `locator` and the "Published in" line from Crossref → review the result; record any publisher error in `publications/overrides.yml` (with `reason`) and re-run → set `featured` deliberately (top page shows at most 4) → link it from the related research project page → validate + render.
+
+**Refresh publication metadata** (e.g. an online-first paper received its volume): `uv run scripts/sync_refs.py --refresh`, review the diff, commit. `--check` reports pending changes without writing. Set `CROSSREF_MAILTO` in the environment to use Crossref's polite pool.
+
+**BibTeX for a CV or manuscript**: `pandoc publications/references.json -f csljson -t biblatex -o publications.bib` (not committed; `references.json` stays the source).
 
 **Add a research project**: create `research/<slug>/index.qmd` from the template structure → choose the slug as if permanent (it is) → assign `research-area` from the closed vocabulary → link related publications and datasets.
 

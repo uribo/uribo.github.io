@@ -7,6 +7,7 @@ author:
   - Saeko Terada
   - Diogo Veríssimo
 year: 2025
+locator: "vol. 18, no. 1, article e13077"
 venue: "Conservation Letters"
 doi: "10.1111/conl.13077"
 research-area:
@@ -17,6 +18,6 @@ type: article
 featured: true
 ---
 
-Published in *Conservation Letters*. [doi:10.1111/conl.13077](https://doi.org/10.1111/conl.13077)
+Published in *{{< meta venue >}}*, {{< meta locator >}}. [doi:{{< meta doi >}}](https://doi.org/{{< meta doi >}})
 
 Causal evidence from Japanese online marketplaces that trade bans under the Act on Conservation of Endangered Species can spill demand over into unregulated, threatened species.

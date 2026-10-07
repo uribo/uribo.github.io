@@ -16,6 +16,7 @@ author:
   - Chris Fook Sheng Ng
   - Masahiro Hashizume
 year: 2021
+locator: "vol. 768, article 144723"
 venue: "Science of The Total Environment"
 doi: "10.1016/j.scitotenv.2020.144723"
 research-area:
@@ -26,6 +27,6 @@ type: article
 featured: true
 ---
 
-Published in *Science of The Total Environment*. [doi:10.1016/j.scitotenv.2020.144723](https://doi.org/10.1016/j.scitotenv.2020.144723)
+Published in *{{< meta venue >}}*, {{< meta locator >}}. [doi:{{< meta doi >}}](https://doi.org/{{< meta doi >}})
 
 Nationwide and prefecture-level trends in heat illness ambulance transport under COVID-19 "new normal" behavior — the foundation of the ongoing [heat risk and mobility](../../research/heat-mobility/index.qmd) project.

@@ -24,6 +24,7 @@ author:
   - Motoi Suzuki
   - Masahiro Hashizume
 year: 2021
+locator: "vol. 27, no. 3, pp. 789–795"
 venue: "Emerging Infectious Diseases"
 doi: "10.3201/eid2703.203925"
 image: /assets/illustrations/neutral.svg
@@ -31,6 +32,6 @@ image-alt: "Line-art illustration: a flock of birds sweeping across the sky abov
 type: article
 ---
 
-Published in *Emerging Infectious Diseases*. [doi:10.3201/eid2703.203925](https://doi.org/10.3201/eid2703.203925)
+Published in *{{< meta venue >}}*, {{< meta locator >}}. [doi:{{< meta doi >}}](https://doi.org/{{< meta doi >}})
 
 Estimates excess all-cause mortality in Japan during the first months of the COVID-19 pandemic.

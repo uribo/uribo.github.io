@@ -1,5 +1,5 @@
 ---
-title: "Assessing the regional impact of Japan's COVID-19 state of emergency declaration: a population-level observational study using social networking services"
+title: "Assessing the regional impact of Japan’s COVID-19 state of emergency declaration: a population-level observational study using social networking services"
 author:
   - Daisuke Yoneoka
   - Shoi Shi
@@ -18,6 +18,7 @@ author:
   - Hiroshi Nishiura
   - Hiroaki Miyata
 year: 2021
+locator: "vol. 11, no. 2, article e042002"
 venue: "BMJ Open"
 doi: "10.1136/bmjopen-2020-042002"
 image: /assets/illustrations/neutral.svg
@@ -25,6 +26,6 @@ image-alt: "Line-art illustration: a flock of birds sweeping across the sky abov
 type: article
 ---
 
-Published in *BMJ Open*. [doi:10.1136/bmjopen-2020-042002](https://doi.org/10.1136/bmjopen-2020-042002)
+Published in *{{< meta venue >}}*, {{< meta locator >}}. [doi:{{< meta doi >}}](https://doi.org/{{< meta doi >}})
 
 Population-level observational evidence, drawn from social networking services, on the regional impact of Japan's COVID-19 state of emergency.

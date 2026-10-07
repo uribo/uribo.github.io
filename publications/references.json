@@ -1,0 +1,865 @@
+[
+  {
+    "DOI": "10.1007/s13280-021-01522-0",
+    "author": [
+      {
+        "family": "Kubo",
+        "given": "Takahiro"
+      },
+      {
+        "family": "Veríssimo",
+        "given": "Diogo"
+      },
+      {
+        "family": "Uryu",
+        "given": "Shinya"
+      },
+      {
+        "family": "Mieno",
+        "given": "Taro"
+      },
+      {
+        "family": "MacMillan",
+        "given": "Douglas"
+      }
+    ],
+    "container-title": "Ambio",
+    "id": "10.1007/s13280-021-01522-0",
+    "issue": "9",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          23
+        ]
+      ]
+    },
+    "page": "1659-1669",
+    "publisher": "Springer Science and Business Media LLC",
+    "title": "What determines the success and failure of environmental crowdfunding?",
+    "type": "journal-article",
+    "volume": "50"
+  },
+  {
+    "DOI": "10.1016/j.ecoinf.2026.103839",
+    "article-number": "103839",
+    "author": [
+      {
+        "family": "Uryu",
+        "given": "Shinya"
+      }
+    ],
+    "container-title": "Ecological Informatics",
+    "id": "10.1016/j.ecoinf.2026.103839",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          6
+        ]
+      ]
+    },
+    "page": "103839",
+    "publisher": "Elsevier BV",
+    "title": "Benchmarking large language models for biodiversity assessment: Performance and biases across IUCN Red List species",
+    "type": "journal-article",
+    "volume": "96"
+  },
+  {
+    "DOI": "10.1016/j.gecco.2025.e03722",
+    "article-number": "e03722",
+    "author": [
+      {
+        "family": "Hsu",
+        "given": "Chia-Hsuan"
+      },
+      {
+        "family": "Kang",
+        "given": "Jeifeng"
+      },
+      {
+        "family": "Zhao",
+        "given": "Xuequn"
+      },
+      {
+        "family": "Uryu",
+        "given": "Shinya"
+      },
+      {
+        "family": "Imagawa",
+        "given": "Haruka"
+      },
+      {
+        "family": "Endo",
+        "given": "Tomohiko"
+      },
+      {
+        "family": "Kubo",
+        "given": "Takahiro"
+      }
+    ],
+    "container-title": "Global Ecology and Conservation",
+    "id": "10.1016/j.gecco.2025.e03722",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          10
+        ]
+      ]
+    },
+    "page": "e03722",
+    "publisher": "Elsevier BV",
+    "title": "Conservation implications from a decade of online wildlife trade for land hermit crabs",
+    "type": "journal-article",
+    "volume": "62"
+  },
+  {
+    "DOI": "10.1016/j.onehlt.2025.100988",
+    "article-number": "100988",
+    "author": [
+      {
+        "family": "Endo",
+        "given": "Tomohiko"
+      },
+      {
+        "family": "Uryu",
+        "given": "Shinya"
+      },
+      {
+        "family": "Fukasawa",
+        "given": "Keita"
+      },
+      {
+        "family": "Kang",
+        "given": "Jiefeng"
+      },
+      {
+        "family": "Kubo",
+        "given": "Takahiro"
+      }
+    ],
+    "container-title": "One Health",
+    "id": "10.1016/j.onehlt.2025.100988",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          6
+        ]
+      ]
+    },
+    "page": "100988",
+    "publisher": "Elsevier BV",
+    "title": "Disease outbreak in wildlife changes online sales of management items",
+    "type": "journal-article",
+    "volume": "20"
+  },
+  {
+    "DOI": "10.1016/j.scitotenv.2020.144723",
+    "article-number": "144723",
+    "author": [
+      {
+        "family": "Uryu",
+        "given": "Shinya"
+      },
+      {
+        "family": "Tanoue",
+        "given": "Yuta"
+      },
+      {
+        "family": "Nomura",
+        "given": "Shuhei"
+      },
+      {
+        "family": "Matsuura",
+        "given": "Kentaro"
+      },
+      {
+        "family": "Makiyama",
+        "given": "Koji"
+      },
+      {
+        "family": "Kawashima",
+        "given": "Takayuki"
+      },
+      {
+        "family": "Yoneoka",
+        "given": "Daisuke"
+      },
+      {
+        "family": "Eguchi",
+        "given": "Akifumi"
+      },
+      {
+        "family": "Kawamura",
+        "given": "Yumi"
+      },
+      {
+        "family": "Gilmour",
+        "given": "Stuart"
+      },
+      {
+        "family": "Sakamoto",
+        "given": "Haruka"
+      },
+      {
+        "family": "Shimizu",
+        "given": "Kazuki"
+      },
+      {
+        "family": "Ng",
+        "given": "Chris Fook Sheng"
+      },
+      {
+        "family": "Hashizume",
+        "given": "Masahiro"
+      }
+    ],
+    "container-title": "Science of The Total Environment",
+    "id": "10.1016/j.scitotenv.2020.144723",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          5
+        ]
+      ]
+    },
+    "page": "144723",
+    "publisher": "Elsevier BV",
+    "title": "Trends in emergency transportation due to heat illness under the new normal lifestyle in the COVID-19 era, in Japan and 47 prefectures",
+    "type": "journal-article",
+    "volume": "768"
+  },
+  {
+    "DOI": "10.1016/j.tourman.2019.104010",
+    "article-number": "104010",
+    "author": [
+      {
+        "family": "Kubo",
+        "given": "Takahiro"
+      },
+      {
+        "family": "Uryu",
+        "given": "Shinya"
+      },
+      {
+        "family": "Yamano",
+        "given": "Hiroya"
+      },
+      {
+        "family": "Tsuge",
+        "given": "Takahiro"
+      },
+      {
+        "family": "Yamakita",
+        "given": "Takehisa"
+      },
+      {
+        "family": "Shirayama",
+        "given": "Yoshihisa"
+      }
+    ],
+    "container-title": "Tourism Management",
+    "id": "10.1016/j.tourman.2019.104010",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          4
+        ]
+      ]
+    },
+    "page": "104010",
+    "publisher": "Elsevier BV",
+    "title": "Mobile phone network data reveal nationwide economic value of coastal tourism under climate change",
+    "type": "journal-article",
+    "volume": "77"
+  },
+  {
+    "DOI": "10.1038/s41597-025-06524-1",
+    "article-number": "208",
+    "author": [
+      {
+        "family": "Uryu",
+        "given": "Shinya"
+      }
+    ],
+    "container-title": "Scientific Data",
+    "id": "10.1038/s41597-025-06524-1",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          6
+        ]
+      ]
+    },
+    "publisher": "Springer Science and Business Media LLC",
+    "title": "BioWikiNet: Multilingual wikipedia taxonomic networks aligned with the GBIF backbone taxonomy",
+    "type": "journal-article",
+    "volume": "13"
+  },
+  {
+    "DOI": "10.1080/24709360.2022.2065628",
+    "article-number": "e2069458",
+    "author": [
+      {
+        "family": "Tanoue",
+        "given": "Yuta"
+      },
+      {
+        "family": "Yoneoka",
+        "given": "Daisuke"
+      },
+      {
+        "family": "Kawashima",
+        "given": "Takayuki"
+      },
+      {
+        "family": "Uryu",
+        "given": "Shinya"
+      },
+      {
+        "family": "Nomura",
+        "given": "Shuhei"
+      },
+      {
+        "family": "Eguchi",
+        "given": "Akifumi"
+      },
+      {
+        "family": "Makiyama",
+        "given": "Koji"
+      },
+      {
+        "family": "Matsuura",
+        "given": "Kentaro"
+      }
+    ],
+    "container-title": "Biostatistics & Epidemiology",
+    "id": "10.1080/24709360.2022.2065628",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          2
+        ]
+      ]
+    },
+    "publisher": "Informa UK Limited",
+    "title": "Public transportation network scan for rapid surveillance",
+    "type": "journal-article",
+    "volume": "7"
+  },
+  {
+    "DOI": "10.1093/ije/dyab216",
+    "author": [
+      {
+        "family": "Onozuka",
+        "given": "Daisuke"
+      },
+      {
+        "family": "Tanoue",
+        "given": "Yuta"
+      },
+      {
+        "family": "Nomura",
+        "given": "Shuhei"
+      },
+      {
+        "family": "Kawashima",
+        "given": "Takayuki"
+      },
+      {
+        "family": "Yoneoka",
+        "given": "Daisuke"
+      },
+      {
+        "family": "Eguchi",
+        "given": "Akifumi"
+      },
+      {
+        "family": "Ng",
+        "given": "Chris Fook Sheng"
+      },
+      {
+        "family": "Matsuura",
+        "given": "Kentaro"
+      },
+      {
+        "family": "Shi",
+        "given": "Shoi"
+      },
+      {
+        "family": "Makiyama",
+        "given": "Koji"
+      },
+      {
+        "family": "Uryu",
+        "given": "Shinya"
+      },
+      {
+        "family": "Kawamura",
+        "given": "Yumi"
+      },
+      {
+        "family": "Takayanagi",
+        "given": "Shinichi"
+      },
+      {
+        "family": "Gilmour",
+        "given": "Stuart"
+      },
+      {
+        "family": "Hayashi",
+        "given": "Takehiko I"
+      },
+      {
+        "family": "Miyata",
+        "given": "Hiroaki"
+      },
+      {
+        "family": "Sera",
+        "given": "Francesco"
+      },
+      {
+        "family": "Sunagawa",
+        "given": "Tomimasa"
+      },
+      {
+        "family": "Takahashi",
+        "given": "Takuri"
+      },
+      {
+        "family": "Tsuchihashi",
+        "given": "Yuuki"
+      },
+      {
+        "family": "Kobayashi",
+        "given": "Yusuke"
+      },
+      {
+        "family": "Arima",
+        "given": "Yuzo"
+      },
+      {
+        "family": "Kanou",
+        "given": "Kazuhiko"
+      },
+      {
+        "family": "Suzuki",
+        "given": "Motoi"
+      },
+      {
+        "family": "Hashizume",
+        "given": "Masahiro"
+      }
+    ],
+    "container-title": "International Journal of Epidemiology",
+    "id": "10.1093/ije/dyab216",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          28
+        ]
+      ]
+    },
+    "page": "75-84",
+    "publisher": "Oxford University Press (OUP)",
+    "title": "Reduced mortality during the COVID-19 outbreak in Japan, 2020: a two-stage interrupted time-series design",
+    "type": "journal-article",
+    "volume": "51"
+  },
+  {
+    "DOI": "10.1111/conl.13077",
+    "article-number": "e13077",
+    "author": [
+      {
+        "family": "Kubo",
+        "given": "Takahiro"
+      },
+      {
+        "family": "Mieno",
+        "given": "Taro"
+      },
+      {
+        "family": "Uryu",
+        "given": "Shinya"
+      },
+      {
+        "family": "Terada",
+        "given": "Saeko"
+      },
+      {
+        "family": "Veríssimo",
+        "given": "Diogo"
+      }
+    ],
+    "container-title": "Conservation Letters",
+    "id": "10.1111/conl.13077",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          1
+        ]
+      ]
+    },
+    "publisher": "Wiley",
+    "title": "Banning Wildlife Trade Can Boost the Unregulated Trade of Threatened Species",
+    "type": "journal-article",
+    "volume": "18"
+  },
+  {
+    "DOI": "10.1136/bmjopen-2020-042002",
+    "author": [
+      {
+        "family": "Yoneoka",
+        "given": "Daisuke"
+      },
+      {
+        "family": "Shi",
+        "given": "Shoi"
+      },
+      {
+        "family": "Nomura",
+        "given": "Shuhei"
+      },
+      {
+        "family": "Tanoue",
+        "given": "Yuta"
+      },
+      {
+        "family": "Kawashima",
+        "given": "Takayuki"
+      },
+      {
+        "family": "Eguchi",
+        "given": "Akifumi"
+      },
+      {
+        "family": "Matsuura",
+        "given": "Kentaro"
+      },
+      {
+        "family": "Makiyama",
+        "given": "Koji"
+      },
+      {
+        "family": "Uryu",
+        "given": "Shinya"
+      },
+      {
+        "family": "Ejima",
+        "given": "Keisuke"
+      },
+      {
+        "family": "Sakamoto",
+        "given": "Haruka"
+      },
+      {
+        "family": "Taniguchi",
+        "given": "Toshibumi"
+      },
+      {
+        "family": "Kunishima",
+        "given": "Hiroyuki"
+      },
+      {
+        "family": "Gilmour",
+        "given": "Stuart"
+      },
+      {
+        "family": "Nishiura",
+        "given": "Hiroshi"
+      },
+      {
+        "family": "Miyata",
+        "given": "Hiroaki"
+      }
+    ],
+    "container-title": "BMJ Open",
+    "id": "10.1136/bmjopen-2020-042002",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          2
+        ]
+      ]
+    },
+    "page": "e042002",
+    "publisher": "BMJ",
+    "title": "Assessing the regional impact of Japan’s COVID-19 state of emergency declaration: a population-level observational study using social networking services",
+    "type": "journal-article",
+    "volume": "11"
+  },
+  {
+    "DOI": "10.1177/00368504211029793",
+    "article-number": "00368504211029793",
+    "author": [
+      {
+        "family": "Eguchi",
+        "given": "Akifumi"
+      },
+      {
+        "family": "Yoneoka",
+        "given": "Daisuke"
+      },
+      {
+        "family": "Shi",
+        "given": "Shoi"
+      },
+      {
+        "family": "Tanoue",
+        "given": "Yuta"
+      },
+      {
+        "family": "Kawashima",
+        "given": "Takayuki"
+      },
+      {
+        "family": "Nomura",
+        "given": "Shuhei"
+      },
+      {
+        "family": "Makiyama",
+        "given": "Koji"
+      },
+      {
+        "family": "Uryu",
+        "given": "Shinya"
+      },
+      {
+        "family": "Sawada",
+        "given": "Masayuki"
+      },
+      {
+        "family": "Kawamura",
+        "given": "Yumi"
+      },
+      {
+        "family": "Takayanagi",
+        "given": "Shinichi"
+      },
+      {
+        "family": "Gilmour",
+        "given": "Stuart"
+      },
+      {
+        "family": "Miyata",
+        "given": "Hiroaki"
+      }
+    ],
+    "container-title": "Science Progress",
+    "id": "10.1177/00368504211029793",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          7
+        ]
+      ]
+    },
+    "publisher": "SAGE Publications",
+    "title": "Effect of emergency declaration on mental health during the COVID-19 pandemic in Japan: A social network service-based difference-in-differences approach",
+    "type": "journal-article",
+    "volume": "104"
+  },
+  {
+    "DOI": "10.3201/eid2703.203925",
+    "author": [
+      {
+        "family": "Kawashima",
+        "given": "Takayuki"
+      },
+      {
+        "family": "Nomura",
+        "given": "Shuhei"
+      },
+      {
+        "family": "Tanoue",
+        "given": "Yuta"
+      },
+      {
+        "family": "Yoneoka",
+        "given": "Daisuke"
+      },
+      {
+        "family": "Eguchi",
+        "given": "Akifumi"
+      },
+      {
+        "family": "Ng",
+        "given": "Chris Fook Sheng"
+      },
+      {
+        "family": "Matsuura",
+        "given": "Kentaro"
+      },
+      {
+        "family": "Shi",
+        "given": "Shoi"
+      },
+      {
+        "family": "Makiyama",
+        "given": "Koji"
+      },
+      {
+        "family": "Uryu",
+        "given": "Shinya"
+      },
+      {
+        "family": "Kawamura",
+        "given": "Yumi"
+      },
+      {
+        "family": "Takayanagi",
+        "given": "Shinichi"
+      },
+      {
+        "family": "Gilmour",
+        "given": "Stuart"
+      },
+      {
+        "family": "Miyata",
+        "given": "Hiroaki"
+      },
+      {
+        "family": "Sunagawa",
+        "given": "Tomimasa"
+      },
+      {
+        "family": "Takahashi",
+        "given": "Takuri"
+      },
+      {
+        "family": "Tsuchihashi",
+        "given": "Yuuki"
+      },
+      {
+        "family": "Kobayashi",
+        "given": "Yusuke"
+      },
+      {
+        "family": "Arima",
+        "given": "Yuzo"
+      },
+      {
+        "family": "Kanou",
+        "given": "Kazuhiko"
+      },
+      {
+        "family": "Suzuki",
+        "given": "Motoi"
+      },
+      {
+        "family": "Hashizume",
+        "given": "Masahiro"
+      }
+    ],
+    "container-title": "Emerging Infectious Diseases",
+    "id": "10.3201/eid2703.203925",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          3
+        ]
+      ]
+    },
+    "page": "789-795",
+    "publisher": "Centers for Disease Control and Prevention (CDC)",
+    "title": "Excess All-Cause Deaths during Coronavirus Disease Pandemic, Japan, January–May 20201",
+    "type": "journal-article",
+    "volume": "27"
+  },
+  {
+    "DOI": "10.3390/ijerph18063271",
+    "author": [
+      {
+        "family": "Makiyama",
+        "given": "Koji"
+      },
+      {
+        "family": "Kawashima",
+        "given": "Takayuki"
+      },
+      {
+        "family": "Nomura",
+        "given": "Shuhei"
+      },
+      {
+        "family": "Eguchi",
+        "given": "Akifumi"
+      },
+      {
+        "family": "Yoneoka",
+        "given": "Daisuke"
+      },
+      {
+        "family": "Tanoue",
+        "given": "Yuta"
+      },
+      {
+        "family": "Kawamura",
+        "given": "Yumi"
+      },
+      {
+        "family": "Sakamoto",
+        "given": "Haruka"
+      },
+      {
+        "family": "Gilmour",
+        "given": "Stuart"
+      },
+      {
+        "family": "Shi",
+        "given": "Shoi"
+      },
+      {
+        "family": "Matsuura",
+        "given": "Kentaro"
+      },
+      {
+        "family": "Uryu",
+        "given": "Shinya"
+      },
+      {
+        "family": "Hashizume",
+        "given": "Masahiro"
+      }
+    ],
+    "container-title": "International Journal of Environmental Research and Public Health",
+    "id": "10.3390/ijerph18063271",
+    "issue": "6",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          22
+        ]
+      ]
+    },
+    "page": "3271",
+    "publisher": "MDPI AG",
+    "title": "Trends in Healthcare Access in Japan during the First Wave of the COVID-19 Pandemic, up to June 2020",
+    "type": "journal-article",
+    "volume": "18"
+  }
+]
