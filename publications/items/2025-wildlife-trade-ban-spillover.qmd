@@ -1,0 +1,23 @@
+---
+title: "Banning Wildlife Trade Can Boost the Unregulated Trade of Threatened Species"
+author:
+  - Takahiro Kubo
+  - Taro Mieno
+  - Shinya Uryu
+  - Saeko Terada
+  - Diogo Veríssimo
+year: 2025
+locator: "vol. 18, no. 1, article e13077"
+venue: "Conservation Letters"
+doi: "10.1111/conl.13077"
+research-area:
+  - environment-information
+image: /assets/illustrations/axis-ei.svg
+image-alt: "Line-art illustration: a hermit crab with a spiral shell walking among sprouting plants."
+type: article
+featured: true
+---
+
+Published in *{{< meta venue >}}*, {{< meta locator >}}. [doi:{{< meta doi >}}](https://doi.org/{{< meta doi >}})
+
+Causal evidence from Japanese online marketplaces that trade bans under the Act on Conservation of Endangered Species can spill demand over into unregulated, threatened species.

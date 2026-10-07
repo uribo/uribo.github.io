@@ -1,0 +1,22 @@
+---
+title: "What determines the success and failure of environmental crowdfunding?"
+author:
+  - Takahiro Kubo
+  - Diogo Veríssimo
+  - Shinya Uryu
+  - Taro Mieno
+  - Douglas MacMillan
+year: 2021
+locator: "vol. 50, no. 9, pp. 1659–1669"
+venue: "Ambio"
+doi: "10.1007/s13280-021-01522-0"
+research-area:
+  - environment-information
+image: /assets/illustrations/axis-ei.svg
+image-alt: "Line-art illustration: a hermit crab with a spiral shell walking among sprouting plants."
+type: article
+---
+
+Published in *{{< meta venue >}}*, {{< meta locator >}}. [doi:{{< meta doi >}}](https://doi.org/{{< meta doi >}})
+
+Analyzes environmental crowdfunding campaigns to identify which project and messaging attributes predict funding success.

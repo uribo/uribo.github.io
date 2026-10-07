@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Line-art illustration: a flock of birds sweeping across the sky above a rolling horizon.">
+  <!-- Horizon -->
+  <path d="M 0 330 C 240 318 420 334 640 326 C 860 318 1040 330 1200 322"
+        fill="none" stroke="#6b6b67" stroke-width="2"/>
+  <!-- Distant hills -->
+  <path d="M 120 330 C 220 296 340 296 440 326" fill="none" stroke="#6b6b67" stroke-width="1.5" opacity="0.5"/>
+  <path d="M 700 326 C 820 286 960 288 1080 322" fill="none" stroke="#6b6b67" stroke-width="1.5" opacity="0.5"/>
+  <!-- Flock sweeping upward, left to right -->
+  <g stroke="#181818" fill="none" stroke-width="2.5" stroke-linecap="round">
+    <path d="M 300 262 C 310 250 322 250 330 260 C 338 250 350 250 360 262"/>
+    <path d="M 470 210 C 481 197 494 197 503 208 C 512 197 525 197 536 210"/>
+    <path d="M 640 164 C 652 150 666 150 676 162 C 686 150 700 150 712 164"/>
+  </g>
+  <g stroke="#6b6b67" fill="none" stroke-width="2" stroke-linecap="round">
+    <path d="M 200 290 C 208 281 217 281 224 288 C 231 281 240 281 248 290"/>
+    <path d="M 388 240 C 396 231 405 231 412 238 C 419 231 428 231 436 240"/>
+    <path d="M 556 190 C 564 181 573 181 580 188 C 587 181 596 181 604 190"/>
+    <path d="M 742 138 C 751 128 761 128 769 136 C 777 128 787 128 796 138"/>
+    <path d="M 850 112 C 858 103 867 103 874 110 C 881 103 890 103 898 112"/>
+  </g>
+  <g stroke="#6b6b67" fill="none" stroke-width="1.5" stroke-linecap="round" opacity="0.75">
+    <path d="M 150 258 C 156 251 163 251 168 256 C 173 251 180 251 186 258"/>
+    <path d="M 258 232 C 264 225 271 225 276 230 C 281 225 288 225 294 232"/>
+    <path d="M 348 288 C 354 281 361 281 366 286 C 371 281 378 281 384 288"/>
+    <path d="M 508 254 C 514 247 521 247 526 252 C 531 247 538 247 544 254"/>
+    <path d="M 700 196 C 706 189 713 189 718 194 C 723 189 730 189 736 196"/>
+    <path d="M 806 166 C 812 159 819 159 824 164 C 829 159 836 159 842 166"/>
+    <path d="M 940 92 C 946 85 953 85 958 90 C 963 85 970 85 976 92"/>
+    <path d="M 1010 74 C 1016 67 1023 67 1028 72 C 1033 67 1040 67 1046 74"/>
+  </g>
+  <!-- Grass -->
+  <g stroke="#6b6b67" fill="none" stroke-width="1.5" stroke-linecap="round">
+    <path d="M 520 326 C 518 316 516 310 512 302"/>
+    <path d="M 526 326 C 526 316 527 309 529 301"/>
+    <path d="M 532 327 C 535 319 539 313 544 307"/>
+  </g>
+</svg>

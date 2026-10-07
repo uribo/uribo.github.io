@@ -1,15 +1,19 @@
 ---
-# TODO: replace title/authors with exact bibliographic record (fetch via DOI lookup).
-title: "TODO — LLM benchmark of IUCN Red List species knowledge (exact title pending DOI lookup)"
+title: "Benchmarking large language models for biodiversity assessment: Performance and biases across IUCN Red List species"
 author:
   - Shinya Uryu
 year: 2026
+locator: "vol. 96, article 103839"
 venue: "Ecological Informatics"
 doi: "10.1016/j.ecoinf.2026.103839"
 research-area:
   - human-information
+image: /assets/illustrations/axis-hi.svg
+image-alt: "Line-art illustration: a tree whose foliage is characters from different writing systems."
 type: article
 featured: true
 ---
 
-Published in *Ecological Informatics*, vol. 96. [doi:10.1016/j.ecoinf.2026.103839](https://doi.org/10.1016/j.ecoinf.2026.103839)
+Published in *{{< meta venue >}}*, {{< meta locator >}}. [doi:{{< meta doi >}}](https://doi.org/{{< meta doi >}}) · [arXiv:2510.02830](https://arxiv.org/abs/2510.02830)
+
+Evaluates five large language models on 21,955 IUCN Red List species across four tasks. LLMs handle taxonomic classification well (94.9%) but systematically fail at conservation status assessment (27.2%) — documenting how closed-book LLMs fail is itself the contribution.

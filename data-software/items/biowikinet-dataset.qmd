@@ -3,7 +3,9 @@ title: "BioWikiNet"
 subtitle: "Multilingual Wikipedia knowledge graph of biodiversity"
 type: dataset
 repository: "https://github.com/uribo/wiki_biocorpus"
-# TODO: add the versioned Figshare DOI for the latest release (v5).
+doi: "10.6084/m9.figshare.29431577.v5"
+image: /assets/illustrations/axis-hi.svg
+image-alt: "Line-art illustration: a tree whose foliage is characters from different writing systems."
 research-area:
   - environment-information
   - human-information

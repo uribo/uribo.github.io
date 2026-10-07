@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Line-art illustration: a person walks along a winding path under a radiating sun, with heat shimmer rising from the ground.">
+  <!-- Sun with organic rays -->
+  <g stroke="#d75b32" fill="none" stroke-width="2.5" stroke-linecap="round">
+    <circle cx="950" cy="110" r="46"/>
+    <path d="M 950 34 C 948 26 952 18 950 10"/>
+    <path d="M 1004 56 C 1010 50 1014 44 1020 38"/>
+    <path d="M 1026 110 C 1034 108 1042 112 1050 110"/>
+    <path d="M 1004 164 C 1010 170 1014 176 1020 182"/>
+    <path d="M 950 186 C 948 194 952 202 950 210"/>
+    <path d="M 896 164 C 890 170 886 176 880 182"/>
+    <path d="M 874 110 C 866 108 858 112 850 110"/>
+    <path d="M 896 56 C 890 50 886 44 880 38"/>
+  </g>
+  <!-- Heat shimmer rising -->
+  <g stroke="#d75b32" fill="none" stroke-width="2" opacity="0.55" stroke-linecap="round">
+    <path d="M 700 300 C 710 280 690 260 700 240 C 710 220 690 200 700 180"/>
+    <path d="M 760 310 C 770 292 750 274 760 256 C 770 238 750 220 760 202"/>
+    <path d="M 820 300 C 830 282 810 264 820 246 C 830 228 810 210 820 192"/>
+  </g>
+  <!-- Ground: rolling line -->
+  <path d="M 0 332 C 200 322 340 336 520 330 C 720 323 900 334 1200 324"
+        fill="none" stroke="#6b6b67" stroke-width="2"/>
+  <!-- Winding dotted path receding -->
+  <path d="M 80 356 C 240 344 330 352 430 330 C 540 306 600 296 700 296 C 830 296 940 288 1080 280"
+        fill="none" stroke="#a8431f" stroke-width="2.5" stroke-dasharray="1 12" stroke-linecap="round"/>
+  <!-- Walking person -->
+  <g stroke="#181818" fill="none" stroke-width="3" stroke-linecap="round">
+    <circle cx="432" cy="178" r="15"/>
+    <path d="M 430 193 C 428 214 426 232 424 252"/>
+    <path d="M 424 252 C 440 272 456 292 472 312"/>
+    <path d="M 424 252 C 407 278 392 294 374 310"/>
+    <path d="M 429 206 C 446 216 458 228 467 241"/>
+    <path d="M 429 206 C 412 220 403 231 397 244"/>
+  </g>
+  <!-- Grass tufts -->
+  <g stroke="#6b6b67" fill="none" stroke-width="1.5" stroke-linecap="round">
+    <path d="M 150 330 C 148 320 146 314 142 306"/>
+    <path d="M 156 330 C 156 320 157 313 159 305"/>
+    <path d="M 162 331 C 165 323 169 317 174 311"/>
+    <path d="M 590 328 C 588 318 586 312 582 304"/>
+    <path d="M 596 328 C 596 318 597 311 599 303"/>
+    <path d="M 602 329 C 605 321 609 315 614 309"/>
+    <path d="M 1030 326 C 1028 316 1026 310 1022 302"/>
+    <path d="M 1036 326 C 1036 316 1037 309 1039 301"/>
+    <path d="M 1042 327 C 1045 319 1049 313 1054 307"/>
+  </g>
+</svg>

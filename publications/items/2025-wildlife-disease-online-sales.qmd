@@ -1,0 +1,22 @@
+---
+title: "Disease outbreak in wildlife changes online sales of management items"
+author:
+  - Tomohiko Endo
+  - Shinya Uryu
+  - Keita Fukasawa
+  - Jiefeng Kang
+  - Takahiro Kubo
+year: 2025
+locator: "vol. 20, article 100988"
+venue: "One Health"
+doi: "10.1016/j.onehlt.2025.100988"
+research-area:
+  - environment-information
+image: /assets/illustrations/axis-ei.svg
+image-alt: "Line-art illustration: a hermit crab with a spiral shell walking among sprouting plants."
+type: article
+---
+
+Published in *{{< meta venue >}}*, {{< meta locator >}}. [doi:{{< meta doi >}}](https://doi.org/{{< meta doi >}})
+
+Links a wildlife disease outbreak to shifts in online sales of management-related items, connecting e-commerce signals to One Health surveillance.

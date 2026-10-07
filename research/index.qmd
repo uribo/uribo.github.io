@@ -1,5 +1,6 @@
 ---
 title: Research
+image: /assets/social/social-preview.png
 listing:
   - id: projects-he
     contents: "*/index.qmd"
@@ -7,24 +8,24 @@ listing:
       research-area: "human-environment"
     type: default
     sort: "title"
-    fields: [title, subtitle]
+    fields: [image, title, subtitle]
   - id: projects-ei
     contents: "*/index.qmd"
     include:
       research-area: "environment-information"
     type: default
     sort: "title"
-    fields: [title, subtitle]
+    fields: [image, title, subtitle]
   - id: projects-hi
     contents: "*/index.qmd"
     include:
       research-area: "human-information"
     type: default
     sort: "title"
-    fields: [title, subtitle]
+    fields: [image, title, subtitle]
 ---
 
-Our research sits on the three edges of one triad — **Human**, **Environment**, and **Information** — asking how people, environmental risk, and the information space shape each other.
+This research sits on the three edges of one triad — **Human**, **Environment**, and **Information** — asking how people, environmental risk, and the information space shape each other.
 
 ## 01 Human × Environment
 
@@ -46,3 +47,9 @@ Our research sits on the three edges of one triad — **Human**, **Environment**
 
 ::: {#projects-hi}
 :::
+
+## Funding
+
+Active competitive grants supporting this research.
+
+**Language Disparities in Biodiversity Knowledge: Quantifying and Explaining Cultural Bias Using Multilingual Wikipedia and Large Language Models** — JSPS KAKENHI Grant-in-Aid for Scientific Research (C), [26K09459](https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-26K09459/), FY2026–2028, Principal Investigator. Quantifies biodiversity knowledge disparities across languages and cultural spheres for roughly 2,000 threatened species, using Wikipedia in 11 languages and large language models. Drives the [Language Gaps in Biodiversity Knowledge](biodiversity-language-gap/index.qmd) project.

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Line-art illustration: a branching tree whose foliage is characters from different writing systems.">
+  <!-- Ground -->
+  <path d="M 200 344 C 400 336 600 348 820 340 C 940 336 1020 342 1080 338"
+        fill="none" stroke="#6b6b67" stroke-width="2"/>
+  <!-- Roots -->
+  <g stroke="#5367a5" fill="none" stroke-width="3" stroke-linecap="round">
+    <path d="M 600 340 C 578 348 554 352 528 352"/>
+    <path d="M 600 340 C 622 348 646 352 672 352"/>
+  </g>
+  <!-- Trunk and branches -->
+  <g stroke="#5367a5" fill="none" stroke-linecap="round">
+    <path d="M 600 340 C 596 306 594 270 596 240" stroke-width="6"/>
+    <path d="M 596 240 C 556 220 516 200 480 180" stroke-width="4"/>
+    <path d="M 480 180 C 462 156 450 132 446 110" stroke-width="3"/>
+    <path d="M 480 180 C 448 176 420 182 400 196" stroke-width="3"/>
+    <path d="M 596 240 C 636 216 674 192 712 168" stroke-width="4"/>
+    <path d="M 712 168 C 734 146 748 124 754 100" stroke-width="3"/>
+    <path d="M 712 168 C 744 164 774 170 796 184" stroke-width="3"/>
+    <path d="M 596 240 C 598 204 600 172 604 144" stroke-width="4"/>
+    <path d="M 604 144 C 620 132 636 124 654 120" stroke-width="2.5"/>
+    <path d="M 597 280 C 634 270 668 272 696 282" stroke-width="3"/>
+    <path d="M 597 300 C 562 292 530 294 506 304" stroke-width="3"/>
+  </g>
+  <!-- Glyph foliage at branch tips -->
+  <g fill="#40518a" font-family="Georgia, 'Hiragino Mincho ProN', serif" text-anchor="middle">
+    <text x="444" y="100" font-size="40">あ</text>
+    <text x="606" y="130" font-size="44">A</text>
+    <text x="762" y="92" font-size="36">汉</text>
+    <text x="382" y="206" font-size="32">ω</text>
+    <text x="818" y="196" font-size="34">ñ</text>
+    <text x="716" y="292" font-size="30">क</text>
+    <text x="486" y="314" font-size="28">ب</text>
+    <text x="672" y="118" font-size="26" opacity="0.75">한</text>
+  </g>
+  <!-- Falling glyph-leaf -->
+  <text x="880" y="306" font-size="22" fill="#40518a" opacity="0.6" font-family="Georgia, 'Hiragino Mincho ProN', serif" transform="rotate(24 880 306)">e</text>
+  <!-- Grass -->
+  <g stroke="#6b6b67" fill="none" stroke-width="1.5" stroke-linecap="round">
+    <path d="M 300 342 C 298 332 296 326 292 318"/>
+    <path d="M 306 342 C 306 332 307 325 309 317"/>
+    <path d="M 920 338 C 918 328 916 322 912 314"/>
+    <path d="M 926 338 C 926 328 927 321 929 313"/>
+    <path d="M 932 339 C 935 331 939 325 944 319"/>
+  </g>
+</svg>

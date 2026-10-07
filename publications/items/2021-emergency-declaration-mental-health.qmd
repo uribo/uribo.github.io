@@ -1,0 +1,28 @@
+---
+title: "Effect of emergency declaration on mental health during the COVID-19 pandemic in Japan: A social network service-based difference-in-differences approach"
+author:
+  - Akifumi Eguchi
+  - Daisuke Yoneoka
+  - Shoi Shi
+  - Yuta Tanoue
+  - Takayuki Kawashima
+  - Shuhei Nomura
+  - Koji Makiyama
+  - Shinya Uryu
+  - Masayuki Sawada
+  - Yumi Kawamura
+  - Shinichi Takayanagi
+  - Stuart Gilmour
+  - Hiroaki Miyata
+year: 2021
+locator: "vol. 104, no. 3, article 00368504211029793"
+venue: "Science Progress"
+doi: "10.1177/00368504211029793"
+image: /assets/illustrations/neutral.svg
+image-alt: "Line-art illustration: a flock of birds sweeping across the sky above a rolling horizon."
+type: article
+---
+
+Published in *{{< meta venue >}}*, {{< meta locator >}}. [doi:{{< meta doi >}}](https://doi.org/{{< meta doi >}})
+
+A difference-in-differences analysis of social media data quantifying the mental health impact of Japan's COVID-19 state of emergency.

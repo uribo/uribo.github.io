@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Axis social card</title>
+<!--
+  Source of assets/social/axis-{he,ei,hi,neutral}.png (1280x640), the Open Graph
+  images that replace the SVG illustrations on social cards. Regenerate with the
+  command in docs/operations.md after changing an illustration.
+-->
+<style>
+  :root { --bg: #F7F7F3; --text: #181818; --muted: #6B6B67; --rule: rgba(24,24,24,0.16); }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1280px; height: 640px; overflow: hidden; background: var(--bg); }
+  body {
+    font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Hiragino Sans", sans-serif;
+    color: var(--text); display: flex; flex-direction: column;
+  }
+  header { padding: 56px 80px 0; display: flex; justify-content: space-between; align-items: baseline; }
+  .kicker { font-size: 20px; letter-spacing: 0.08em; color: var(--muted); font-weight: 600; }
+  .identity { font-size: 20px; color: var(--muted); }
+  .identity b { color: var(--text); font-weight: 650; }
+  .title { padding: 22px 80px 0; font-size: 58px; line-height: 1.05; font-weight: 760; letter-spacing: -0.01em; }
+  .title .x { font-weight: 400; color: var(--muted); }
+  .sub { padding: 14px 80px 0; font-size: 24px; }
+  .art { margin-top: auto; }
+  .title.long { font-size: 46px; }
+  .art img { display: block; width: 1280px; height: auto; margin-top: -40px; }
+</style>
+</head>
+<body>
+  <header>
+    <div class="kicker">URIBO.GITHUB.IO</div>
+    <div class="identity"><b>Shinya Uryu</b> · Tokushima University</div>
+  </header>
+  <div class="title" id="title"></div>
+  <div class="sub" id="sub"></div>
+  <div class="art"><img id="art" alt=""></div>
+  <script>
+    const axes = {
+      he: { title: ["HUMAN", "ENVIRONMENT"], sub: "Heat risk, human mobility, and spatial exposure", color: "#A8431F" },
+      ei: { title: ["ENVIRONMENT", "INFORMATION"], sub: "Conservation culturomics and biodiversity perception", color: "#3D5C3F" },
+      hi: { title: ["HUMAN", "INFORMATION"], sub: "Multilingual Wikipedia, NLP, and knowledge graphs", color: "#40518A" },
+      neutral: { title: ["HUMAN", "ENVIRONMENT", "INFORMATION"], sub: "Understanding human–environment–information systems through data", color: "#6B6B67" },
+    };
+    const key = new URLSearchParams(location.search).get("a") || "neutral";
+    const axis = axes[key];
+    if (axis.title.length > 2) document.getElementById("title").classList.add("long");
+    document.getElementById("title").innerHTML = axis.title.join(' <span class="x">×</span> ');
+    const sub = document.getElementById("sub");
+    sub.textContent = axis.sub;
+    sub.style.color = axis.color;
+    document.getElementById("art").src = `../illustrations/${key === "neutral" ? "neutral" : "axis-" + key}.svg`;
+  </script>
+</body>
+</html>

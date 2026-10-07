@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Social preview</title>
+<style>
+  :root {
+    --bg: #F7F7F3; --text: #181818; --muted: #6B6B67; --rule: rgba(24,24,24,0.16);
+    --he: #D75B32; --ei: #4F7651; --hi: #5367A5;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1280px; height: 640px; overflow: hidden; background: var(--bg); }
+  body {
+    font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Hiragino Sans", sans-serif;
+    color: var(--text);
+    display: grid; grid-template-columns: 1fr 430px; column-gap: 56px;
+    padding: 64px 80px 56px;
+  }
+  .copy { display: flex; flex-direction: column; min-width: 0; }
+  .kicker { font-size: 20px; letter-spacing: 0.08em; color: var(--muted); font-weight: 600; }
+  .title { margin-top: 22px; font-size: 60px; line-height: 1.06; font-weight: 760; letter-spacing: -0.01em; }
+  .title > span { display: block; }
+  .title .x { font-weight: 400; color: var(--muted); margin-right: 0.18em; }
+  .lede { margin-top: 30px; font-size: 26px; line-height: 1.35; }
+  .lede-ja { margin-top: 10px; font-size: 21px; color: var(--muted); }
+  .identity { margin-top: auto; padding-top: 22px; border-top: 1px solid var(--rule); font-size: 22px; line-height: 1.35; }
+  .identity b { font-weight: 650; }
+  .identity small { display: block; font-size: 18px; color: var(--muted); margin-top: 4px; }
+  .visual { display: flex; align-items: center; justify-content: center; }
+  .visual svg { width: 430px; height: auto; }
+</style>
+</head>
+<body>
+  <div class="copy">
+    <div class="kicker">URIBO.GITHUB.IO</div>
+    <div class="title">
+      <span>HUMAN</span>
+      <span><span class="x">×</span>ENVIRONMENT</span>
+      <span><span class="x">×</span>INFORMATION</span>
+    </div>
+    <p class="lede">Understanding human–environment–information systems through data.</p>
+    <p class="lede-ja">人間・環境・情報空間の関係をデータで読み解く</p>
+    <div class="identity">
+      <b>Shinya Uryu</b> — Assistant Professor
+      <small>Center for Design-Oriented AI Education and Research, Tokushima University</small>
+    </div>
+  </div>
+  <div class="visual">
+    <svg viewBox="0 0 400 360" role="img" aria-label="Research triad">
+      <g fill="none" stroke-width="4" stroke-linecap="round">
+        <line x1="200" y1="60" x2="80" y2="280" stroke="var(--he)" />
+        <line x1="80" y1="280" x2="320" y2="280" stroke="var(--ei)" />
+        <line x1="320" y1="280" x2="200" y2="60" stroke="var(--hi)" />
+      </g>
+      <g fill="#181818">
+        <circle cx="200" cy="60" r="5" /><circle cx="80" cy="280" r="5" /><circle cx="320" cy="280" r="5" />
+      </g>
+      <g fill="#181818" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0.04em">
+        <text x="200" y="38">HUMAN</text>
+        <text x="80" y="310">ENVIRONMENT</text>
+        <text x="320" y="310">INFORMATION</text>
+      </g>
+      <g font-size="14" text-anchor="middle">
+        <text x="113" y="161" transform="rotate(-61 113 161)" fill="#A8431F">heat / mobility / exposure</text>
+        <text x="200" y="268" fill="#3D5C3F">culturomics / perception</text>
+        <text x="287" y="161" transform="rotate(61 287 161)" fill="#40518A">Wikipedia / NLP / knowledge</text>
+      </g>
+    </svg>
+  </div>
+</body>
+</html>

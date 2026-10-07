@@ -12,7 +12,11 @@ Accents are used sparingly: as category markers and figure support, never as UI 
 
 ## Typography and layout
 
-Large display typography with `clamp()` sizing, generous whitespace, hairline separators (`1px` borders) instead of boxes. The top page is the only custom layout (`page-layout: custom`); every other page uses Quarto's standard article layout for readability.
+Large display typography with `clamp()` sizing, hairline separators (`1px` borders) instead of boxes. Layout density is **dense editorial** (owner preference, 2026-09-01): the top page reads like a broadsheet front page — a stats strip under the hero, a dated News list, two-column publication listings, and a bottom grid for projects / funding / data — rather than a sparse landing page. Density comes from tighter spacing, multi-column grids, and more (real) content per viewport; never from decorative boxes, cards, or filler. The top page is the only custom layout (`page-layout: custom`); every other page uses Quarto's standard article layout for readability.
+
+## Illustrations
+
+Hand-crafted line-art SVGs in `assets/illustrations/`, one per research axis plus a neutral variant: `axis-he.svg` (a person walking under a radiating sun with heat shimmer), `axis-ei.svg` (a hermit crab among sprouting plants), `axis-hi.svg` (a tree whose foliage is characters from different scripts), `neutral.svg` (a flock of birds over a rolling horizon). Style contract — **organic, living subjects, not geometric diagrams** (owner preference, 2026-09-01): every illustration depicts organisms, people, or plants in a naive single-weight line style; scenes share a common ground/horizon line and small grass tufts; 1200×400 viewBox, transparent background, 1.5–4px strokes with `stroke-linecap="round"`, graphic-tier accent for the subject plus muted gray for ground elements, no gradients, fills only for small marks (eyes, dots) and glyph text, `role="img"` + `aria-label` on the root element. No reference grids, charts, or abstract network diagrams. They serve as listing thumbnails (`image` front matter) and project-page banners (`.project-banner`). Add new illustrations only in this style; item-specific artwork should still read as a member of the same family.
 
 ## Figures
 

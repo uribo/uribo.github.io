@@ -1,0 +1,42 @@
+---
+title: "Wildlife Trade in Online Markets"
+subtitle: "What e-commerce and social data reveal about wildlife exploitation, regulation, and its side effects"
+research-area:
+  - environment-information
+status: active
+image: /assets/illustrations/axis-ei.svg
+image-alt: "Line-art illustration: a hermit crab with a spiral shell walking among sprouting plants."
+---
+
+![](/assets/illustrations/axis-ei.svg){.project-banner fig-alt="Line-art illustration: a hermit crab with a spiral shell walking among sprouting plants."}
+
+## Research Question
+
+How does wildlife trade behave in online marketplaces — and what happens to demand when regulation intervenes?
+
+## Background
+
+Online marketplaces leave long, fine-grained records of wildlife trade that traditional monitoring misses. With collaborators at the National Institute for Environmental Studies and beyond, this project line uses those records to evaluate conservation policy: trade bans can push demand into unregulated threatened species ([Kubo et al. 2025, Conservation Letters](../../publications/items/2025-wildlife-trade-ban-spillover.qmd)), wildlife disease outbreaks reshape sales of management items ([Endo et al. 2025, One Health](../../publications/items/2025-wildlife-disease-online-sales.qmd)), and a decade of listings traces trade pressure on land hermit crabs ([Hsu et al. 2025, Global Ecology and Conservation](../../publications/items/2025-hermit-crab-online-trade.qmd)).
+
+## Approach
+
+Long-term marketplace datasets (millions of transactions across hundreds of species), causal inference around regulatory events, and text processing to identify species and trade context from the titles of traded items.
+
+## Representative Findings
+
+Regulation is not free: banning trade in listed species measurably boosted trade in unregulated, threatened alternatives — an early-warning problem this project aims to make assessable before rules take effect.
+
+## Related Publications
+
+- [Banning Wildlife Trade Can Boost the Unregulated Trade of Threatened Species (2025, Conservation Letters)](../../publications/items/2025-wildlife-trade-ban-spillover.qmd)
+- [Disease outbreak in wildlife changes online sales of management items (2025, One Health)](../../publications/items/2025-wildlife-disease-online-sales.qmd)
+- [Conservation implications from a decade of online wildlife trade for land hermit crabs (2025, Global Ecology and Conservation)](../../publications/items/2025-hermit-crab-online-trade.qmd)
+- [What determines the success and failure of environmental crowdfunding? (2021, Ambio)](../../publications/items/2021-environmental-crowdfunding.qmd)
+
+## Data & Code
+
+Marketplace datasets contain seller information and cannot be redistributed; aggregated data accompany the individual papers.
+
+## Related Projects
+
+- [Language Gaps in Biodiversity Knowledge](../biodiversity-language-gap/index.qmd) — species-name dictionaries and knowledge graphs feed trade-data species identification

@@ -1,15 +1,19 @@
 ---
 title: Publications
+image: /assets/social/social-preview.png
 listing:
   id: all-publications
   contents: items
   type: default
   sort: "year desc"
   categories: false
-  fields: [title, author, year]
+  page-size: 30
+  fields: [image, title, author, venue, year]
+  field-display-names:
+    venue: "Venue"
 ---
 
-Peer-reviewed articles, preprints, and other written outputs. Datasets and software have [their own section](../data-software/index.qmd).
+Peer-reviewed articles, preprints, and other written outputs — first-authored and co-authored alike, spanning conservation informatics, wildlife trade, heat risk, and epidemiology. Datasets and software have [their own section](../data-software/index.qmd).
 
 ::: {#all-publications}
 :::

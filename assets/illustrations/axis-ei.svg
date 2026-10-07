@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Line-art illustration: a hermit crab with a spiral shell walks along the ground beside sprouting plants.">
+  <!-- Ground -->
+  <path d="M 60 330 C 300 320 520 336 760 328 C 940 322 1060 332 1160 326"
+        fill="none" stroke="#6b6b67" stroke-width="2"/>
+  <!-- Hermit crab: spiral shell -->
+  <g stroke="#4f7651" fill="none" stroke-width="3" stroke-linecap="round">
+    <path d="M 640 300 C 560 310 490 280 480 210 C 472 150 520 100 590 100 C 655 100 700 145 698 200 C 696 248 660 280 615 278 C 575 276 550 248 553 212 C 556 180 580 162 608 166 C 632 170 645 190 641 212 C 638 230 622 240 606 236"/>
+  </g>
+  <!-- Body, eye stalks, claw, legs -->
+  <g stroke="#3d5c3f" fill="none" stroke-width="3" stroke-linecap="round">
+    <path d="M 635 298 C 665 296 690 284 705 264"/>
+    <path d="M 705 264 C 708 252 710 244 710 234"/>
+    <path d="M 714 268 C 720 256 724 248 726 240"/>
+    <path d="M 690 290 C 712 288 730 296 738 312"/>
+    <path d="M 738 312 C 748 306 754 296 754 286"/>
+    <path d="M 738 312 C 728 316 718 316 710 312"/>
+    <path d="M 660 300 C 668 312 674 322 678 332"/>
+    <path d="M 645 302 C 648 314 648 324 646 332"/>
+    <path d="M 674 296 C 686 306 694 318 698 330"/>
+  </g>
+  <g fill="#3d5c3f">
+    <circle cx="710" cy="231" r="5"/>
+    <circle cx="727" cy="237" r="5"/>
+  </g>
+  <!-- Sprouting plants -->
+  <g stroke="#4f7651" fill="none" stroke-width="2.5" stroke-linecap="round">
+    <path d="M 220 328 C 222 296 224 272 228 244"/>
+    <path d="M 228 244 C 210 246 196 238 190 222 C 208 220 222 228 228 244 Z"/>
+    <path d="M 226 270 C 244 270 258 260 262 244 C 244 246 232 254 226 270 Z"/>
+    <path d="M 224 300 C 208 300 196 292 192 278 C 208 280 218 288 224 300 Z"/>
+  </g>
+  <g stroke="#4f7651" fill="none" stroke-width="2.5" stroke-linecap="round">
+    <path d="M 960 326 C 962 300 964 282 968 260"/>
+    <path d="M 968 260 C 952 260 940 252 936 238 C 952 240 962 248 968 260 Z"/>
+    <path d="M 966 288 C 982 288 994 280 998 266 C 982 268 972 276 966 288 Z"/>
+  </g>
+  <g stroke="#4f7651" fill="none" stroke-width="2" stroke-linecap="round">
+    <path d="M 120 330 C 118 318 116 310 112 300"/>
+    <path d="M 126 330 C 127 319 129 311 133 302"/>
+    <path d="M 852 328 C 850 316 848 308 844 298"/>
+    <path d="M 858 328 C 859 317 861 309 865 300"/>
+  </g>
+</svg>

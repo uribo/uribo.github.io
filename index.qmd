@@ -10,13 +10,40 @@ listing:
     type: default
     sort: "year desc"
     max-items: 4
-    fields: [title, author, year]
+    fields: [image, title, author, year]
+  - id: recent-publications
+    contents: publications/items
+    type: default
+    sort: "year desc"
+    max-items: 8
+    fields: [title, venue, year]
+    field-display-names:
+      venue: "Venue"
+  - id: home-projects
+    contents: research/*/index.qmd
+    type: default
+    sort: "title"
+    fields: [image, title, subtitle]
 ---
 
 {{< include includes/_hero.qmd >}}
 
+::: {.home-stats}
+**14** peer-reviewed publications · **3** research axes · **3** active projects · **1** active KAKENHI grant · **11** Wikipedia language editions under study · **21,955** Red List species benchmarked
+:::
+
+::: {.home-section .home-news}
+## News
+
+- **2026** — [jmastats](data-software/items/jmastats.qmd) 0.3.1 released on CRAN: bundled datasets updated to September 2026, with fixes to station validation and caching.
+- **2026** — [Benchmarking large language models for biodiversity assessment](publications/items/2026-llm-redlist-benchmark.qmd) published in *Ecological Informatics*.
+- **2026** — KAKENHI Grant-in-Aid for Scientific Research (C) [26K09459](https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-26K09459/) started (FY2026–2028): language disparities in biodiversity knowledge.
+- **2026** — [BioWikiNet](publications/items/2025-biowikinet.qmd) published in *Scientific Data*; dataset archived on [Figshare](data-software/items/biowikinet-dataset.qmd).
+- **2025** — [Banning Wildlife Trade Can Boost the Unregulated Trade of Threatened Species](publications/items/2025-wildlife-trade-ban-spillover.qmd) published in *Conservation Letters*.
+:::
+
 ::: {.axes}
-## What We Study
+## Research Areas
 
 ::: {.axis .axis--he}
 <span class="axis-number">01</span>
@@ -36,7 +63,7 @@ How do people move through, and get exposed to, environmental risk? Extreme heat
 
 How are nature and biodiversity represented in the information space? Conservation culturomics and biodiversity perception through digital corpora.
 
-<p class="axis-keywords">biodiversity · conservation culturomics · human–nature relationships · biodiversity perception</p>
+<p class="axis-keywords">biodiversity · conservation culturomics · wildlife trade · human–nature relationships · biodiversity perception</p>
 </div>
 :::
 
@@ -47,26 +74,50 @@ How are nature and biodiversity represented in the information space? Conservati
 
 How is knowledge about nature and science structured across languages and platforms? Multilingual Wikipedia, natural language processing, and knowledge graphs.
 
-<p class="axis-keywords">Wikipedia · multilingual data · NLP · knowledge graphs · network science</p>
+<p class="axis-keywords">Wikipedia · multilingual data · NLP · knowledge graphs · network science · LLM evaluation</p>
 </div>
 :::
 
 [Explore the research →](research/index.qmd)
 :::
 
-::: {.home-section}
+::: {.home-columns}
+::: {.home-col}
 ## Selected Publications
 
 ::: {#featured-publications}
 :::
 
-[All publications →](publications/index.qmd)
+[All 14 publications →](publications/index.qmd)
 :::
 
-::: {.home-section}
+::: {.home-col}
+## Recent Publications
+
+::: {#recent-publications}
+:::
+:::
+:::
+
+::: {.home-grid}
+::: {.home-cell}
+## Projects
+
+::: {#home-projects}
+:::
+:::
+
+::: {.home-cell}
+## Funding
+
+**KAKENHI 26K09459** — Grant-in-Aid for Scientific Research (C), FY2026–2028, PI. Language disparities in biodiversity knowledge, measured through multilingual Wikipedia and LLMs.
+
+[Funding details →](research/index.qmd#funding)
+
 ## Data & Software
 
 Datasets, research software, and interactive visualizations are first-class research outputs here, alongside papers.
 
 [Browse data & software →](data-software/index.qmd)
+:::
 :::

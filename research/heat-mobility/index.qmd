@@ -4,7 +4,11 @@ subtitle: "Spatial exposure to extreme heat through the lens of human movement"
 research-area:
   - human-environment
 status: active
+image: /assets/illustrations/axis-he.svg
+image-alt: "Line-art illustration: a person walking along a winding path under a radiating sun, with heat shimmer rising from the ground."
 ---
+
+![](/assets/illustrations/axis-he.svg){.project-banner fig-alt="Line-art illustration: a person walking along a winding path under a radiating sun, with heat shimmer rising from the ground."}
 
 <!-- TEMPLATE PROJECT PAGE: this is the canonical structure for research project pages.
      Sections may be omitted while a project is young, but keep the order. -->
@@ -13,26 +17,6 @@ status: active
 
 How does human mobility shape who is exposed to extreme heat, beyond what residential population maps suggest?
 
-## Background
-
-TODO
-
-## Approach
-
-TODO
-
-## Representative Findings
-
-TODO — computational figures go here; render locally so results are frozen (see docs/architecture.md).
-
 ## Related Publications
 
-TODO — link to entries under `publications/items/`.
-
-## Data & Code
-
-TODO — link to entries under `data-software/items/`.
-
-## Related Projects
-
-TODO
+- [Trends in emergency transportation due to heat illness under the new normal lifestyle in the COVID-19 era, in Japan and 47 prefectures (2021, Science of The Total Environment)](../../publications/items/2021-heat-illness-emergency-transport.qmd)

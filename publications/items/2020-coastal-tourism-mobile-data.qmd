@@ -1,0 +1,23 @@
+---
+title: "Mobile phone network data reveal nationwide economic value of coastal tourism under climate change"
+author:
+  - Takahiro Kubo
+  - Shinya Uryu
+  - Hiroya Yamano
+  - Takahiro Tsuge
+  - Takehisa Yamakita
+  - Yoshihisa Shirayama
+year: 2020
+locator: "vol. 77, article 104010"
+venue: "Tourism Management"
+doi: "10.1016/j.tourman.2019.104010"
+research-area:
+  - human-environment
+image: /assets/illustrations/axis-he.svg
+image-alt: "Line-art illustration: a person walking along a winding path under a radiating sun, with heat shimmer rising from the ground."
+type: article
+---
+
+Published in *{{< meta venue >}}*, {{< meta locator >}}. [doi:{{< meta doi >}}](https://doi.org/{{< meta doi >}})
+
+Uses mobile phone network data to estimate the nationwide economic value of coastal tourism in Japan and how climate change may reshape it.

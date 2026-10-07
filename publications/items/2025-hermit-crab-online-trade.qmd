@@ -1,0 +1,24 @@
+---
+title: "Conservation implications from a decade of online wildlife trade for land hermit crabs"
+author:
+  - Chia-Hsuan Hsu
+  - Jiefeng Kang
+  - Xuequn Zhao
+  - Shinya Uryu
+  - Haruka Imagawa
+  - Tomohiko Endo
+  - Takahiro Kubo
+year: 2025
+locator: "vol. 62, article e03722"
+venue: "Global Ecology and Conservation"
+doi: "10.1016/j.gecco.2025.e03722"
+research-area:
+  - environment-information
+image: /assets/illustrations/axis-ei.svg
+image-alt: "Line-art illustration: a hermit crab with a spiral shell walking among sprouting plants."
+type: article
+---
+
+Published in *{{< meta venue >}}*, {{< meta locator >}}. [doi:{{< meta doi >}}](https://doi.org/{{< meta doi >}})
+
+Ten years of online marketplace records reveal trade trends for land hermit crabs and their implications for conservation management.

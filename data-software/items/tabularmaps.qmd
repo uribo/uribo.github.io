@@ -1,0 +1,14 @@
+---
+title: "tabularmaps"
+subtitle: "R package for tile-grid geographical maps"
+type: software
+cran: available
+repository: "https://github.com/uribo/tabularmaps"
+doi: "10.32614/CRAN.package.tabularmaps"
+image: /assets/illustrations/neutral.svg
+image-alt: "Line-art illustration: a flock of birds sweeping across the sky above a rolling horizon."
+---
+
+[![CRAN version](https://img.shields.io/cran/v/tabularmaps.svg)](https://cran.r-project.org/package=tabularmaps) [![Development version on r-universe](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Furibo.r-universe.dev%2Fapi%2Fpackages%2Ftabularmaps&query=%24.Version&label=r-universe)](https://uribo.r-universe.dev/tabularmaps)
+
+Draws tile-grid ("tabular") maps that give each area an equal-sized tile, correcting for differences in visibility between large and small regions. On [CRAN](https://cran.r-project.org/package=tabularmaps); source on [GitHub](https://github.com/uribo/tabularmaps).
