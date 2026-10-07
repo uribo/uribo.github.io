@@ -35,6 +35,7 @@ listing:
 ::: {.home-section .home-news}
 ## News
 
+- **2026** — [jmastats](data-software/items/jmastats.qmd) 0.3.1 released on CRAN: bundled datasets updated to September 2026, with fixes to station validation and caching.
 - **2026** — [Benchmarking large language models for biodiversity assessment](publications/items/2026-llm-redlist-benchmark.qmd) published in *Ecological Informatics*.
 - **2026** — KAKENHI Grant-in-Aid for Scientific Research (C) [26K09459](https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-26K09459/) started (FY2026–2028): language disparities in biodiversity knowledge.
 - **2026** — [BioWikiNet](publications/items/2025-biowikinet.qmd) published in *Scientific Data*; dataset archived on [Figshare](data-software/items/biowikinet-dataset.qmd).
