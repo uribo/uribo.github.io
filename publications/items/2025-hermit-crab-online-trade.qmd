@@ -2,7 +2,7 @@
 title: "Conservation implications from a decade of online wildlife trade for land hermit crabs"
 author:
   - Chia-Hsuan Hsu
-  - Jeifeng Kang
+  - Jiefeng Kang
   - Xuequn Zhao
   - Shinya Uryu
   - Haruka Imagawa

@@ -6,3 +6,8 @@
 "10.3201/eid2703.203925":
   title: "Excess All-Cause Deaths during Coronavirus Disease Pandemic, Japan, January–May 2020"
   reason: "Crossref title carries the article's footnote marker (\"20201\")."
+
+"10.1016/j.gecco.2025.e03722":
+  author-rename:
+    "Jeifeng Kang": "Jiefeng Kang"
+  reason: "Publisher typo in the author's given name; matches the spelling in One Health (10.1016/j.onehlt.2025.100988)."
