@@ -12,8 +12,6 @@ Agents must not edit this file unless the change is explicitly requested. See AG
 <p class="hero-lede-ja">人間・環境・情報空間の関係をデータで読み解く</p>
 
 <p class="hero-identity">Shinya Uryu — Assistant Professor, Center for Design-Oriented AI Education and Research, Tokushima University</p>
-
-<p class="hero-status"><a href="https://gist.github.com/uribo/60779bacd27b6d9e96f6513921151773"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgist.githubusercontent.com%2Furibo%2F60779bacd27b6d9e96f6513921151773%2Fraw%2Fstatus.json&query=%24.statuses.doing&label=doing&color=blue" alt="Current status: what I am doing now" /></a></p>
 :::
 
 ::: {.hero-visual}
